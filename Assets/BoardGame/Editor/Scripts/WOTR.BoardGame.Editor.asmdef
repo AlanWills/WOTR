@@ -1,0 +1,19 @@
+{
+    "name": "WOTR.BoardGame.Editor",
+    "rootNamespace": "WOTREditor.BoardGame",
+    "references": [
+        "Celeste.Scene.Editor",
+        "WOTR.BoardGame"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
