@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8977093091162577694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
+  m_Name: PrefabActorBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  defaultLocationName: ElvenRing1
+  prefab: {fileID: 1196619915368264578, guid: 6ba5a737f4fd38449b883578df268286, type: 3}
+  customiseScale: 0
+  scale: {x: 1, y: 1, z: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280983e2a31274041b5e3ef65674359c, type: 3}
+  m_Name: ElvenRing1
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -8977093091162577694}

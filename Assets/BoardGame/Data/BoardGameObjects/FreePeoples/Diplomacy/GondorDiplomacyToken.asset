@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5145839850942884268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
+  m_Name: PrefabActorBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  defaultLocationName: GondorDiplomacyTokenStartingLocation
+  prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
+  scale: {x: 1, y: 1, z: 1}
+--- !u!114 &-4156060167758546891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608661c562582274f98bce622d496e6a, type: 3}
+  m_Name: TokenBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  startsFaceUp: 0
+  faceUpSprite: {fileID: 21300000, guid: cccb0788764dc544796bf3d8602d03cd, type: 3}
+  faceDownSprite: {fileID: 21300000, guid: ce326b7b12d415e4195b60fe8f26782d, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280983e2a31274041b5e3ef65674359c, type: 3}
+  m_Name: GondorDiplomacyToken
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -5145839850942884268}
+  - {fileID: -4156060167758546891}
