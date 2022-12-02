@@ -44,6 +44,9 @@ TagManager:
   - name: Board
     uniqueID: 3840956913
     locked: 0
+  - name: Cards
+    uniqueID: 3863359833
+    locked: 0
   - name: Tokens
     uniqueID: 2742619871
     locked: 0

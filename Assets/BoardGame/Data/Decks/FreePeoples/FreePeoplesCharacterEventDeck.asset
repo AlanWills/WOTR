@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad8dc5b83fd7334ebb7ce1ac12aaa93, type: 3}
+  m_Name: FreePeoplesCharacterEventDeck
+  m_EditorClassIdentifier: 
+  cardShuffler: {fileID: 11400000, guid: 11dc5752594575548bbe3683aeefb0ca, type: 2}
+  cardAddedToDrawPileEvent: {fileID: 11400000, guid: 03d400841a94d1c4fa6a018898aecdd0, type: 2}
+  cardRemovedFromDrawPileEvent: {fileID: 11400000, guid: b67f2074b2e175941bfc8724426d65ba, type: 2}
+  cardAddedToDiscardPileEvent: {fileID: 11400000, guid: a0f828ebbd735724abeb029af76003b6, type: 2}
+  cardRemovedFromDiscardPileEvent: {fileID: 11400000, guid: 26255869552a781438497988eb4c0bc9, type: 2}
+  cardAddedToRemovedPileEvent: {fileID: 11400000, guid: a79577771aa618c48a7d2fa8d09fa2f4, type: 2}
+  cardRemovedFromRemovedPileEvent: {fileID: 11400000, guid: d468927ae1bdc4e448c8dbdc8b3293b7, type: 2}
