@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ad8dc5b83fd7334ebb7ce1ac12aaa93, type: 3}
-  m_Name: FreePeoplesCharacterEventDeck
+  m_Name: FreePeoplesCharacterEventsDeck
   m_EditorClassIdentifier: 
   cardShuffler: {fileID: 11400000, guid: 11dc5752594575548bbe3683aeefb0ca, type: 2}
   cardAddedToDrawPileEvent: {fileID: 11400000, guid: 03d400841a94d1c4fa6a018898aecdd0, type: 2}

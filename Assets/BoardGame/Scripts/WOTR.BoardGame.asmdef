@@ -3,7 +3,8 @@
     "rootNamespace": "WOTR.BoardGame",
     "references": [
         "Celeste.DeckBuilding",
-        "Celeste.Events"
+        "Celeste.Events",
+        "Celeste.Components"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

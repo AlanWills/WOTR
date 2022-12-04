@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9218085495391198001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 764428334008353646, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b1ccb1f122cf784cb1c14ff0cbefaa6, type: 2}
+    - target: {fileID: 953718103577707799, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: deck
+      value: 
+      objectReference: {fileID: 11400000, guid: ad801d32aad4fcb42aa5ecf6d468622f, type: 2}
+    - target: {fileID: 1773488037811156495, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_Name
+      value: DrawPile
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600355020248273089, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 10e21d97ebaf8a94e87dddc501ad89e5, type: 2}
+    - target: {fileID: 2735439605907569702, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
+    - target: {fileID: 3671686038420863143, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
+    - target: {fileID: 3700095076692223975, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: e314ffcb527c4914ab767e6a1abac9cf, type: 2}
+    - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329939673588830786, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 75f55263fdd1797448c2bcfaa57b4477, type: 2}
+    - target: {fileID: 4981230822473235018, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981230822473235018, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562985104201747100, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 3fecdbe8be645224c9428d72a5fe1188, type: 2}
+    - target: {fileID: 6388104748374753806, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 3222b3745c9a1d04b9cda6156c0636d9, type: 2}
+    - target: {fileID: 7552539313813291622, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
+    - target: {fileID: 7852194111592425987, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7852194111592425987, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7852194111592425987, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053801881178563209, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053801881178563209, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053801881178563209, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053801881178563209, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988585752070897313, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: m_Name
+      value: FreePeoples-ArmyEventsDeckUIController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}

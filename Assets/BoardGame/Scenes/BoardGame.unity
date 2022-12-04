@@ -199,6 +199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318664b50883c84fa3e6b9c9d6d302b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
+  loadOnAwake: 0
   boardGame: {fileID: 11400000, guid: 7fa2c9d08f663954482f61552a8bb72c, type: 2}
   onRuntimeInitialized:
     m_PersistentCalls:

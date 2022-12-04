@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29f0a8dd3010484488b9d497dff0fcff, type: 3}
-  m_Name: StringGameObjectDictionary
+  m_Name: BoardGameLocations
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
