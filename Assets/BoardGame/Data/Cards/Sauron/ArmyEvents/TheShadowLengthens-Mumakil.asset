@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37917e256ebc4d3499218eebc3a59e19, type: 3}
-  m_Name: TheShadownLengthens-Mumakil
+  m_Name: TheShadowLengthens-Mumakil
   m_EditorClassIdentifier: 
   components: []
   guid: 0
