@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultLocationName: MordorDiplomacyTokenStartingLocation
   prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
+  customiseScale: 1
   scale: {x: 1, y: 1, z: 1}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -30,6 +31,7 @@ MonoBehaviour:
   components:
   - {fileID: -6140927574277684376}
   - {fileID: 992819706336992152}
+  guid: 14
 --- !u!114 &992819706336992152
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RidersOfTheoden-Daylight
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 47
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: dfb2260318ddfba4b84f6c1b957bf791, type: 3}

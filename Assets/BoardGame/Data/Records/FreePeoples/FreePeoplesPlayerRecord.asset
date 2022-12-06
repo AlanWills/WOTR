@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c0796653b6aae468f61dc10121cf93, type: 3}
+  m_Name: FreePeoplesPlayerRecord
+  m_EditorClassIdentifier: 
+  guid: 1
+  currentHand: {fileID: 11400000, guid: 3a63c58f16c85d7449e372ab91c53860, type: 2}
+  stage: {fileID: 11400000, guid: 3c4a4de01f8379d4c80f9cbf9d1dfc8f, type: 2}
+  becameActiveEvent: {fileID: 11400000, guid: 7b6293ca8d3e2ab449121d3470b94a15, type: 2}
+  becameInactiveEvent: {fileID: 11400000, guid: df873326a43584b4aa0efb6190e544ee, type: 2}
+  save: {fileID: 0}

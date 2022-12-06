@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: DenethorsFolly-DevilryOfOrthanc
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 54
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 866ad6fb293afab40b304cbfac0d8174, type: 3}

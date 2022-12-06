@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SmeagolHelpsNiceMaster-ItIsAGift
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 24
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 523e4ce54d47cdb4da4112b5bb519ec1, type: 3}

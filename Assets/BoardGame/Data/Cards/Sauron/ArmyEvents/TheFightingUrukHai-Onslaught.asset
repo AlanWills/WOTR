@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TheFightingUrukHai-Onslaught
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 61
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 1fc32f8a6e219594cad2480fa4aeedbc, type: 3}

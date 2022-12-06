@@ -4,7 +4,10 @@
     "references": [
         "Celeste.DeckBuilding",
         "Celeste.Events",
-        "Celeste.Components"
+        "Celeste.Components",
+        "Celeste.BoardGame",
+        "Celeste.Persistence",
+        "Celeste.Objects"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

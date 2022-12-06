@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: OnOnTheyWent-OneForTheDarkLord
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 79
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 7fdbd0c0e05358d4d8570207177d882e, type: 3}

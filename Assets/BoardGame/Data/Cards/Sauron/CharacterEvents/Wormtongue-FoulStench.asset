@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Wormtongue-FoulStench
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 90
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: cb79e58ae9fc68e4d8a3ff7c5dcec4c4, type: 3}

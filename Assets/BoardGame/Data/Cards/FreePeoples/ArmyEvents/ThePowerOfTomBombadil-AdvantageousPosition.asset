@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ThePowerOfTomBombadil-AdvantageousPosition
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 7
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 1ea6a4eeed0fc074f8d7e588a0a08d4a, type: 3}

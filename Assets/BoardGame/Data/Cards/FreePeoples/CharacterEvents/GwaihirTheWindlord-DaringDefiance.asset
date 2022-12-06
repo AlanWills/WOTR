@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GwaihirTheWindlord-DaringDefiance
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 17
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 0e0471179c47bfe44a169d1847d9088c, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c0796653b6aae468f61dc10121cf93, type: 3}
+  m_Name: SauronPlayerRecord
+  m_EditorClassIdentifier: 
+  guid: 2
+  currentHand: {fileID: 11400000, guid: 435083e30711d7d4fa8f70ac6305dd91, type: 2}
+  stage: {fileID: 11400000, guid: 39c104a0adf063740b5013fcb6029e1c, type: 2}
+  becameActiveEvent: {fileID: 11400000, guid: 4d0a273c94cb1434c9f290a181ade488, type: 2}
+  becameInactiveEvent: {fileID: 11400000, guid: 9d76dbaf1a0541144988c62022ca0bfe, type: 2}
+  save: {fileID: 0}

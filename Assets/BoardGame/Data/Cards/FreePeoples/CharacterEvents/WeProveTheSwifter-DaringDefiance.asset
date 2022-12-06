@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WeProveTheSwifter-DaringDefiance
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 33
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: bbb0519364e62654ca35ed6e695786a0, type: 3}

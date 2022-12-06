@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GiveItToUss!-OneForTheDarkLord
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 72
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 17df4752c9104594e9ddf5baeab2b05a, type: 3}

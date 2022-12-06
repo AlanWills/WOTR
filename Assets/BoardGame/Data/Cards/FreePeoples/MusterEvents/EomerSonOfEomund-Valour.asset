@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: EomerSonOfEomund-Valour
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 40
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 49cc1e40918d53e42a0d9a32a7e85563, type: 3}

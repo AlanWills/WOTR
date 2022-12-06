@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CandlesOfCorpses-DreadAndDespair
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 66
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 89bb9781287499748b37910d25328d1b, type: 3}

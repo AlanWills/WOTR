@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LureOfTheRing-TheyAreTerrible
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 76
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: adf42c4793979704e99f8fd4ce005de1, type: 3}

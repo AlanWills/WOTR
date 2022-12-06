@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ElvenCloaks-ItIsAGift
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 15
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 810621b2b46b197419bc6c1dedb3ea35, type: 3}

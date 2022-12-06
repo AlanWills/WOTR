@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 7161558379309037669}
+  guid: 18
 --- !u!114 &7161558379309037669
 MonoBehaviour:
   m_ObjectHideFlags: 0

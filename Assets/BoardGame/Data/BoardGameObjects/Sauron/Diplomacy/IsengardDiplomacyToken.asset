@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultLocationName: IsengardDiplomacyTokenStartingLocation
   prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
+  customiseScale: 1
   scale: {x: 1, y: 1, z: 1}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -30,6 +31,7 @@ MonoBehaviour:
   components:
   - {fileID: -409042984591858344}
   - {fileID: 6037515184429699403}
+  guid: 13
 --- !u!114 &6037515184429699403
 MonoBehaviour:
   m_ObjectHideFlags: 0

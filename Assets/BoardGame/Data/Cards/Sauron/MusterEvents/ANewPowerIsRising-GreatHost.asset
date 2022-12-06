@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ANewPowerIsRising-GreatHost
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 92
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 9faad0691eab829489773d83491cd513, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TheRingwraithsAreAbroad-WordsOfPower
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 89
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 560f2daf43e4ae14f838c942ec545688, type: 3}

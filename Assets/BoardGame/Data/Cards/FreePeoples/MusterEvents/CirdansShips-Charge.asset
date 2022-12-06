@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CirdansShips-Charge
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 38
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 6740977c48dec6346afda8e6ca7522c6, type: 3}

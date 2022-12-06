@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ShadowOfDolGuldur-OldHatred
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 58
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: f302a66f103ce01408ad4a39db58b1a2, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TheBreakingOfTheFellowship-DreadAndDespair
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 83
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: d58944a51ecfa814fb0b0b12e1a75bd4, type: 3}

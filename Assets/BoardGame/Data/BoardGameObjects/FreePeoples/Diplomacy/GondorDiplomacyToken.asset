@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultLocationName: GondorDiplomacyTokenStartingLocation
   prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
+  customiseScale: 1
   scale: {x: 1, y: 1, z: 1}
 --- !u!114 &-4156060167758546891
 MonoBehaviour:
@@ -45,3 +46,4 @@ MonoBehaviour:
   components:
   - {fileID: -5145839850942884268}
   - {fileID: -4156060167758546891}
+  guid: 5

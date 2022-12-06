@@ -3,6 +3,7 @@
     "rootNamespace": "WOTREditor.BoardGame",
     "references": [
         "Celeste.Scene.Editor",
+        "Celeste.DataStructures.Editor",
         "WOTR.BoardGame"
     ],
     "includePlatforms": [

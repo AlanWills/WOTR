@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2602744afa33f4da0fd82cb9509db4, type: 3}
+  m_Name: SauronCurrentHand
+  m_EditorClassIdentifier: 
+  cardsEnterFaceUp: 1
+  handLimit: 7
+  cardAddedEvent: {fileID: 11400000, guid: a0431da30a557514098123fffe3e8c39, type: 2}
+  cardRemovedEvent: {fileID: 11400000, guid: 4722efaf5c2cfc344a4fcbf086815799, type: 2}

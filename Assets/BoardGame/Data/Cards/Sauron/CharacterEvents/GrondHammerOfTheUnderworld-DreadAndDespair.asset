@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GrondHammerOfTheUnderworld-DreadAndDespair
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 73
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 247746d119511de4f91f6bd0d53129e2, type: 3}

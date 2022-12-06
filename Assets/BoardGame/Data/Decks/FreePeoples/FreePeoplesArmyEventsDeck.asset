@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad8dc5b83fd7334ebb7ce1ac12aaa93, type: 3}
   m_Name: FreePeoplesArmyEventsDeck
   m_EditorClassIdentifier: 
+  guid: 1
   cardShuffler: {fileID: 11400000, guid: 11dc5752594575548bbe3683aeefb0ca, type: 2}
   cardAddedToDrawPileEvent: {fileID: 11400000, guid: 10e21d97ebaf8a94e87dddc501ad89e5, type: 2}
   cardRemovedFromDrawPileEvent: {fileID: 11400000, guid: 75f55263fdd1797448c2bcfaa57b4477, type: 2}

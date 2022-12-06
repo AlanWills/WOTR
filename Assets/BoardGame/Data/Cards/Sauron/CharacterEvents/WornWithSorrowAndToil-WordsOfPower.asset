@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WornWithSorrowAndToil-WordsOfPower
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 91
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 5393bf4c646c35643a64c4bb177b5703, type: 3}

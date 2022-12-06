@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: OrcPatrol-CruelAsDeath
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 80
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 19f7abcd4557860489a657e6ad9c6efc, type: 3}

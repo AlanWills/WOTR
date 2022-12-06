@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ReturnOfTheWitchKing-SwarmOfBats
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 101
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: dad43cb5b901de040811eb075294aae1, type: 3}

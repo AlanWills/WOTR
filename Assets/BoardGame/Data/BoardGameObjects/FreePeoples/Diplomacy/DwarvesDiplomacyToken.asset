@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultLocationName: DwarvesDiplomacyTokenStartingLocation
   prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
+  customiseScale: 1
   scale: {x: 1, y: 1, z: 1}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -30,6 +31,7 @@ MonoBehaviour:
   components:
   - {fileID: 8030865725950568489}
   - {fileID: -7293597829991819041}
+  guid: 3
 --- !u!114 &8030865725950568489
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: IsildursBane-CruelAsDeath
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 75
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 3da1af604bbe74445b167b8c64fa51e2, type: 3}

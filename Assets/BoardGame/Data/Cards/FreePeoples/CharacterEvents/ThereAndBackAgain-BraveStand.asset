@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ThereAndBackAgain-BraveStand
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 30
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: 83ea4d11ff13c1545bab3040b77328af, type: 3}

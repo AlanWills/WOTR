@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ManyKingsToTheServiceOfMordor-GreatHose
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 95
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 098c9fa81dd5ff84db25143dd9f27ae7, type: 3}

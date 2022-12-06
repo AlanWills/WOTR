@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MirrorOfGaladriel-HeroicDeath
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 21
   cardBack: {fileID: 21300000, guid: dc42612062bccaf48b979d4a52f6a4bc, type: 3}
   cardFront: {fileID: 21300000, guid: e5297e19484fb23468ca35685d2c9a28, type: 3}

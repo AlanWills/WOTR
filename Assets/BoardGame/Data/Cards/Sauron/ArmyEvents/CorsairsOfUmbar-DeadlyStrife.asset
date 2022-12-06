@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CorsairsOfUmbar-DeadlyStrife
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 53
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: e9a3d32e31716e64ea5f64fa3c0119d2, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: BalrogOfMoria-DurinsBane
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 65
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 52d0205b1bdbee44f835a477da436413, type: 3}

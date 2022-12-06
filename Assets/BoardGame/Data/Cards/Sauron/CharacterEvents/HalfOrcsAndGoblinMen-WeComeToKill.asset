@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HalfOrcsAndGoblinMen-WeComeToKill
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 74
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: a0d6db0ea471fd14eb5cc62e9678e4cc, type: 3}

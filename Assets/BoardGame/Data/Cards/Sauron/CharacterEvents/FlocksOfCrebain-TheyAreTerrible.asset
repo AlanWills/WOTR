@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FlocksOfCrebain-TheyAreTerrible
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 70
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: c47c1f92fa940804b88e38028a1cec22, type: 3}

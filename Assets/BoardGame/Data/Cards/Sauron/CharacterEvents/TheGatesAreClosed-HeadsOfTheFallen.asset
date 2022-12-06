@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TheGatesAreClosed-HeadsOfTheFallen
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 84
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 380f1cdf20192a64cb42f6a0033dff40, type: 3}

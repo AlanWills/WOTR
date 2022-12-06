@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MonstersRoused-DesperateBattle
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 96
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 88450c02c900b184bbff5efc49555bc9, type: 3}

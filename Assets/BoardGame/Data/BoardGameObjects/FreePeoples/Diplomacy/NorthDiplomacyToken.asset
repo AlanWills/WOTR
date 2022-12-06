@@ -30,6 +30,7 @@ MonoBehaviour:
   components:
   - {fileID: 7890528944278020719}
   - {fileID: -428907755108747714}
+  guid: 6
 --- !u!114 &7890528944278020719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,4 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultLocationName: NorthDiplomacyTokenStartingLocation
   prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
+  customiseScale: 1
   scale: {x: 1, y: 1, z: 1}

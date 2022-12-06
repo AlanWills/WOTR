@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ShelobsLair-OneForTheDarkLord
   m_EditorClassIdentifier: 
   components: []
-  guid: 0
+  guid: 81
   cardBack: {fileID: 21300000, guid: 9311719815f795d42875f7da0720dbcd, type: 3}
   cardFront: {fileID: 21300000, guid: 64cff425d5d32b94eb1b8a3e98c7d1c6, type: 3}
