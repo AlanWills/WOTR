@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6073003666559328765}
   - component: {fileID: 4365856337968017532}
   - component: {fileID: 4128720749136809975}
-  - component: {fileID: 6361091140203107445}
+  - component: {fileID: 2904086119739506934}
+  - component: {fileID: 1896761875243014281}
   m_Layer: 0
   m_Name: TooltipBackground
   m_TagString: Untagged
@@ -35,8 +36,8 @@ RectTransform:
   m_Father: {fileID: 598552037529155945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -78,7 +79,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6361091140203107445
+--- !u!114 &2904086119739506934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,9 +88,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 217291402980810437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aef109fd2f0d5ad44b9f729ef3f1515c, type: 3}
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 10
+    m_Right: 10
+    m_Top: 10
+    m_Bottom: 10
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1896761875243014281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217291402980810437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
 --- !u!1 &3100180312320927955
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,8 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 598552037529155945}
   - component: {fileID: 5119453384726607739}
-  - component: {fileID: 3687242396840220142}
-  - component: {fileID: 3645917681986770264}
+  - component: {fileID: 5947298482071173772}
   m_Layer: 0
   m_Name: Tooltip
   m_TagString: Untagged
@@ -263,7 +291,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 150}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5119453384726607739
 MonoBehaviour:
@@ -278,9 +306,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   worldSpaceCamera: {fileID: 0}
-  tooltipRoot: {fileID: 217291402980810437}
+  tooltipRoot: {fileID: 598552037529155945}
   tooltipText: {fileID: 4653172007669240515}
---- !u!114 &3687242396840220142
+--- !u!114 &5947298482071173772
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,50 +317,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8496257631943362784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8bda873cc3a0104bba92c5a8ef60085, type: 3}
+  m_Script: {fileID: 11500000, guid: aef109fd2f0d5ad44b9f729ef3f1515c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5119453384726607739}
-        m_TargetAssemblyTypeName: Celeste.UI.Input.TooltipUI, Celeste.UI
-        m_MethodName: ShowTooltip
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &3645917681986770264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8496257631943362784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5119453384726607739}
-        m_TargetAssemblyTypeName: Celeste.UI.Input.TooltipUI, Celeste.UI
-        m_MethodName: HideTooltip
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
