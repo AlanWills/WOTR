@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FreePeoplesCurrentHandDebugMenu
   m_EditorClassIdentifier: 
   displayName: FP Current Hand
+  menuPriority: 21
   currentHand: {fileID: 11400000, guid: 3a63c58f16c85d7449e372ab91c53860, type: 2}
   sourceDecks:
   - {fileID: 11400000, guid: 0234e759dba60b04ca33f6d3b7b4990a, type: 2}

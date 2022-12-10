@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: SauronCharacterEventsDeckDebugMenu
   m_EditorClassIdentifier: 
   displayName: Sauron Character Events Deck
+  menuPriority: 10
   deck: {fileID: 11400000, guid: 5b2cc41397e53354f92e2c19f3a153c7, type: 2}

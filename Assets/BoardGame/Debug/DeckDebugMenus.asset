@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eeff87f7c3132740841633f19d7d41c, type: 3}
+  m_Name: DeckDebugMenus
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: d74f3ae2f8b568f49aa063b9906a73a4, type: 2}
+  - {fileID: 11400000, guid: 0b3042aab9327b843b3a345cbf4a2066, type: 2}
+  - {fileID: 11400000, guid: 45b9e5a45ec17a64aa96ef7ef8bfbbde, type: 2}
+  - {fileID: 11400000, guid: cee3f163055110c49a8f63a902c7c493, type: 2}
+  menuPriority: 10
