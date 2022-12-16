@@ -82,8 +82,7 @@ namespace WOTR.BoardGame.Runtime
 
             foreach (var boardGameObjectRuntimeDTO in dto.boardGameObjectRuntimes)
             {
-                BoardGameObjectRuntime runtime = boardGameRuntime.AddBoardGameObject(boardGameObjectRuntimeDTO.guid);
-                runtime.LoadComponents(dto.components.ToLookup());
+                boardGameRuntime.AddBoardGameObject(boardGameObjectRuntimeDTO);
             }
 
             boardGameRuntime.ComponentDataChanged.AddListener(OnBoardGameChanged);

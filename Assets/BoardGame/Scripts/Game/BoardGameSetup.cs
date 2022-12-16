@@ -1,4 +1,5 @@
-﻿using Celeste.BoardGame.Persistence;
+﻿using Celeste.BoardGame;
+using Celeste.BoardGame.Persistence;
 using Celeste.BoardGame.Runtime;
 using System;
 using UnityEngine;
@@ -27,5 +28,15 @@ namespace WOTR.BoardGame
         [SerializeField] private PlayerRecordManagerDTO startingPlayersState;
 
         #endregion
+
+        public void UseBoardGame(Celeste.BoardGame.BoardGame boardGame)
+        {
+            startingBoardGameRuntimeState = new BoardGameRuntimeDTO(boardGame);
+        }
+
+        public void AddBoardGameObject(BoardGameObject boardGameObject)
+        {
+            startingBoardGameRuntimeState.boardGameObjectRuntimes.Add(new BoardGameObjectRuntimeDTO(boardGameObject));
+        }
     }
 }
