@@ -7,7 +7,11 @@
         "Celeste.Components",
         "Celeste.BoardGame",
         "Celeste.Persistence",
-        "Celeste.Objects"
+        "Celeste.Objects",
+        "Celeste.Constants",
+        "Celeste.Parameters",
+        "Celeste.UI",
+        "Celeste.Debug"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

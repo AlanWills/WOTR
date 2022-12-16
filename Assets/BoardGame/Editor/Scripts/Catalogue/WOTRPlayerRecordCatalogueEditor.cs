@@ -6,7 +6,7 @@ using WOTR.BoardGame.Catalogue;
 namespace WOTREditor.BoardGame.Catalogue
 {
     [CustomEditor(typeof(WOTRPlayerRecordCatalogue))]
-    public class WOTRPlayerRecordCatalogueEditor : IIndexableItemsEditor<WOTRPlayerRecord>
+    public class WOTRPlayerRecordCatalogueEditor : IIndexableItemsEditor<PlayerRecord>
     {
     }
 }

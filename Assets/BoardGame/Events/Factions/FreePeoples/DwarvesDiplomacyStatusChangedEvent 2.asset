@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eeff87f7c3132740841633f19d7d41c, type: 3}
-  m_Name: HandDebugMenus
+  m_Script: {fileID: 11500000, guid: 4c5fd2c4dc757244aa148ec88feb550c, type: 3}
+  m_Name: DwarvesDiplomacyStatusChangedEvent 2
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 11400000, guid: c2620628c50d9614a91a9ea9dadf7794, type: 2}
-  - {fileID: 11400000, guid: e9ff124fa385d2e478f8f93cd7cfb14a, type: 2}
-  menuPriority: 20
+  helpText: 

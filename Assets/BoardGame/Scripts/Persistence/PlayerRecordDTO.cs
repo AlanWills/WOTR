@@ -5,13 +5,13 @@ using System.Collections.Generic;
 namespace WOTR.BoardGame.Persistence
 {
     [Serializable]
-    public class WOTRPlayerRecordDTO
+    public class PlayerRecordDTO
     {
         public int guid;
         public List<CardRuntimeDTO> cardsInHand = new List<CardRuntimeDTO>();
         public List<CardRuntimeDTO> cardsOnStage = new List<CardRuntimeDTO>();
 
-        public WOTRPlayerRecordDTO(WOTRPlayerRecord wotrPlayerRecord)
+        public PlayerRecordDTO(PlayerRecord wotrPlayerRecord)
         {
             guid = wotrPlayerRecord.Guid;
 

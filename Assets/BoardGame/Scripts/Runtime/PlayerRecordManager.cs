@@ -1,4 +1,4 @@
-﻿using Celeste.DeckBuilding.Cards;
+﻿using Celeste.BoardGame.Runtime;
 using Celeste.DeckBuilding.Catalogue;
 using Celeste.Persistence;
 using System;
@@ -21,7 +21,7 @@ namespace WOTR.BoardGame.Runtime
         [SerializeField] private CardCatalogue cardCatalogue;
         [SerializeField] private WOTRPlayerRecordCatalogue playerCatalogue;
 
-        [NonSerialized] private List<WOTRPlayerRecord> activePlayers = new List<WOTRPlayerRecord>();
+        [NonSerialized] private List<PlayerRecord> activePlayers = new List<PlayerRecord>();
 
         #endregion
 
@@ -34,21 +34,40 @@ namespace WOTR.BoardGame.Runtime
 
         protected override void Deserialize(PlayerRecordManagerDTO dto)
         {
+            LoadCommon(dto);
+        }
+
+        protected override void SetDefaultValues() { }
+
+        private void LoadCommon(PlayerRecordManagerDTO dto)
+        {
             activePlayers.Clear();
 
             foreach (var playerDTO in dto.playerRecords)
             {
-                WOTRPlayerRecord playerRecord = playerCatalogue.FindByGuid(playerDTO.guid);
-                Debug.Assert(playerRecord != null, $"Could not find player record with GUID {playerDTO.guid}.");
+                PlayerRecord playerRecord = playerCatalogue.FindByGuid(playerDTO.guid);
+                UnityEngine.Debug.Assert(playerRecord != null, $"Could not find player record with GUID {playerDTO.guid}.");
                 playerRecord.Load(playerDTO, deckCatalogue, cardCatalogue);
                 activePlayers.Add(playerRecord);
             }
         }
 
-        protected override void SetDefaultValues()
+        #endregion
+
+        #region Callbacks
+
+        public void OnBoardGameSetup(BoardGameSetupArgs args)
         {
-            activePlayers.Add(playerCatalogue.FindByGuid(1));
-            activePlayers.Add(playerCatalogue.FindByGuid(2));
+            LoadCommon(args.boardGameSetup.StartingPlayersState);
+        }
+
+        public void OnBoardGameLoaded(BoardGameLoadedArgs args)
+        {
+            Load();
+        }
+
+        public void OnBoardGameShutdown(BoardGameShutdownArgs args)
+        {
         }
 
         #endregion

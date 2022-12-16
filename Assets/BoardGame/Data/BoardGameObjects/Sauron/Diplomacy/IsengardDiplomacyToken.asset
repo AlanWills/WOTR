@@ -30,9 +30,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: -409042984591858344}
-  - {fileID: 6037515184429699403}
+  - {fileID: 7542747612904821327}
   guid: 13
---- !u!114 &6037515184429699403
+--- !u!114 &7542747612904821327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608661c562582274f98bce622d496e6a, type: 3}
-  m_Name: TokenBoardGameObjectComponent
+  m_Script: {fileID: 11500000, guid: ecf9d35522061bb40846d8faac6e46df, type: 3}
+  m_Name: DiplomacyTokenBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  startsFaceUp: 1
-  faceUpSprite: {fileID: 21300000, guid: 0f80c5c4fa0a3dd4f8468bd73782742a, type: 3}
-  faceDownSprite: {fileID: 0}
+  faction: {fileID: 11400000, guid: 1b451e45a29155540a8b2be65bd97204, type: 2}
+  activeSprite: {fileID: 21300000, guid: 0f80c5c4fa0a3dd4f8468bd73782742a, type: 3}
+  passiveSprite: {fileID: 0}
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}

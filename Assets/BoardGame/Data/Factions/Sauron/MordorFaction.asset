@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad29d9d921f22d643b86013f81842459, type: 3}
+  m_Name: MordorFaction
+  m_EditorClassIdentifier: 
+  guid: 7
+  displayName: Mordor
+  isActive: {fileID: 11400000, guid: 7452eaeb283d662498bc4d2d083d42ee, type: 2}
+  diplomacyStatus: {fileID: 11400000, guid: f37b8fe14e073a940bb71650abc293cd, type: 2}

@@ -11,8 +11,8 @@ using WOTR.BoardGame.Persistence;
 
 namespace WOTR.BoardGame
 {
-    [CreateAssetMenu(fileName = nameof(WOTRPlayerRecord), menuName = "WOTR/Board Game/Record/WOTR Player Record")]
-    public class WOTRPlayerRecord : ScriptableObject, IGuid
+    [CreateAssetMenu(fileName = nameof(PlayerRecord), menuName = "WOTR/Board Game/Record/Player Record")]
+    public class PlayerRecord : ScriptableObject, IGuid
     {
         #region Properties and Fields
 
@@ -58,24 +58,23 @@ namespace WOTR.BoardGame
         [Header("Events")]
         [SerializeField] private Celeste.Events.Event becameActiveEvent;
         [SerializeField] private Celeste.Events.Event becameInactiveEvent;
-        [SerializeField] private Celeste.Events.Event save;
 
         private bool isActive = false;
 
         #endregion
 
         public void Load(
-            WOTRPlayerRecordDTO dto, 
+            PlayerRecordDTO dto, 
             DeckCatalogue deckCatalogue, 
             CardCatalogue cardCatalogue)
         {
             foreach (CardRuntimeDTO cardDTO in dto.cardsInHand)
             {
                 Card card = cardCatalogue.FindByGuid(cardDTO.cardGuid);
-                Debug.Assert(card != null, $"Could not find card with guid {cardDTO.cardGuid} in card catalogue.");
+                UnityEngine.Debug.Assert(card != null, $"Could not find card with guid {cardDTO.cardGuid} in card catalogue.");
                 
                 Deck deck = deckCatalogue.FindByGuid(cardDTO.deckGuid);
-                Debug.Assert(deck != null, $"Could not find deck with guid {cardDTO.deckGuid} in deck catalogue.");
+                UnityEngine.Debug.Assert(deck != null, $"Could not find deck with guid {cardDTO.deckGuid} in deck catalogue.");
 
                 if (card != null && deck != null)
                 {
@@ -88,10 +87,10 @@ namespace WOTR.BoardGame
             foreach (CardRuntimeDTO cardDTO in dto.cardsOnStage)
             {
                 Card card = cardCatalogue.FindByGuid(cardDTO.cardGuid);
-                Debug.Assert(card != null, $"Could not find card with guid {cardDTO.cardGuid} in card catalogue.");
+                UnityEngine.Debug.Assert(card != null, $"Could not find card with guid {cardDTO.cardGuid} in card catalogue.");
 
                 Deck deck = deckCatalogue.FindByGuid(cardDTO.deckGuid);
-                Debug.Assert(deck != null, $"Could not find deck with guid {cardDTO.deckGuid} in deck catalogue.");
+                UnityEngine.Debug.Assert(deck != null, $"Could not find deck with guid {cardDTO.deckGuid} in deck catalogue.");
 
                 if (card != null && deck != null)
                 {

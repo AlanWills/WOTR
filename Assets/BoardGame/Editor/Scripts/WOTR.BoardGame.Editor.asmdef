@@ -4,6 +4,7 @@
     "references": [
         "Celeste.Scene.Editor",
         "Celeste.DataStructures.Editor",
+        "Celeste.BoardGame",
         "WOTR.BoardGame"
     ],
     "includePlatforms": [

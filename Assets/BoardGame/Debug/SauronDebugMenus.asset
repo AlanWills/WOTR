@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eeff87f7c3132740841633f19d7d41c, type: 3}
-  m_Name: DeckDebugMenus
+  m_Name: SauronDebugMenus
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 11400000, guid: d74f3ae2f8b568f49aa063b9906a73a4, type: 2}
   - {fileID: 11400000, guid: 0b3042aab9327b843b3a345cbf4a2066, type: 2}
-  - {fileID: 11400000, guid: 45b9e5a45ec17a64aa96ef7ef8bfbbde, type: 2}
-  - {fileID: 11400000, guid: cee3f163055110c49a8f63a902c7c493, type: 2}
-  menuPriority: 10
+  - {fileID: 11400000, guid: d74f3ae2f8b568f49aa063b9906a73a4, type: 2}
+  - {fileID: 11400000, guid: c2620628c50d9614a91a9ea9dadf7794, type: 2}
+  - {fileID: 11400000, guid: 9d887b578b6244d4781a24fb7d3936f6, type: 2}
+  - {fileID: 11400000, guid: 8cb478e2e8a37184189da174ed64f079, type: 2}
+  menuPriority: 50

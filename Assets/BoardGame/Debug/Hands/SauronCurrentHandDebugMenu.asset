@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b8afde225f45d43a997cacfcd5f219, type: 3}
   m_Name: SauronCurrentHandDebugMenu
   m_EditorClassIdentifier: 
-  displayName: S Current Hand
-  menuPriority: 20
+  displayName: Sauron Current Hand
+  menuPriority: 52
   currentHand: {fileID: 11400000, guid: 435083e30711d7d4fa8f70ac6305dd91, type: 2}
   sourceDecks:
   - {fileID: 11400000, guid: 5b2cc41397e53354f92e2c19f3a153c7, type: 2}

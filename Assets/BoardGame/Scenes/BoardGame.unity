@@ -123,6 +123,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &48851051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 48851053}
+  - component: {fileID: 48851052}
+  - component: {fileID: 48851054}
+  m_Layer: 0
+  m_Name: SauronDiceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &48851052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48851051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b59a490badbddb438a1726e9a928712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: {fileID: 11400000, guid: 89b3b8dff4c9cd54b93646e04efbc877, type: 2}
+  dice: {fileID: 11400000, guid: 9bfd288e1d6433b46afb47b3735dd3f8, type: 2}
+--- !u!4 &48851053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48851051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &48851054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48851051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 14fe2e2f2db93f243be6c40157d46590, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 48851052}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnRollAllDice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66627583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,12 +287,13 @@ MonoBehaviour:
   snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
   loadOnAwake: 0
   boardGame: {fileID: 11400000, guid: 7fa2c9d08f663954482f61552a8bb72c, type: 2}
-  onRuntimeInitialized:
+  boardGameSetup: {fileID: 0}
+  onBoardGameSetup:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1259255887}
-        m_TargetAssemblyTypeName: Celeste.BoardGame.UI.BoardGameUIManager, Celeste.BoardGame
-        m_MethodName: OnBoardGameRuntimeInitialized
+      - m_Target: {fileID: 2013056710}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.PlayerRecordManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameSetup
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -227,11 +303,149 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onRuntimeShutdown:
+      - m_Target: {fileID: 739147993}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameSetup
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 48851052}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameSetup
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1112248049}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.FactionsManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameSetup
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onBoardGameLoaded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2013056710}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.PlayerRecordManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameLoaded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 739147993}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameLoaded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 48851052}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameLoaded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1112248049}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.FactionsManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameLoaded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onBoardGameReady:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1259255887}
         m_TargetAssemblyTypeName: Celeste.BoardGame.UI.BoardGameUIManager, Celeste.BoardGame
+        m_MethodName: OnBoardGameReady
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onBoardGameShutdown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2013056710}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.PlayerRecordManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameShutdown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 739147993}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameShutdown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 48851052}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnBoardGameShutdown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1112248049}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.FactionsManager, WOTR.BoardGame
         m_MethodName: OnBoardGameRuntimeShutdown
         m_Mode: 0
         m_Arguments:
@@ -338,6 +552,81 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1386191234115975756, guid: 0d563b7bdf86a0f4ca9e3ebd261d718e, type: 3}
   m_PrefabInstance: {fileID: 1555172350732008969}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &739147991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 739147992}
+  - component: {fileID: 739147993}
+  - component: {fileID: 739147994}
+  m_Layer: 0
+  m_Name: FreePeoplesDiceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &739147992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739147991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &739147993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739147991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b59a490badbddb438a1726e9a928712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: {fileID: 11400000, guid: 5457350e6ad52f54290682ff887a1a5d, type: 2}
+  dice: {fileID: 11400000, guid: 5037a8609d0c3884896365fcc30de396, type: 2}
+--- !u!114 &739147994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739147991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 14fe2e2f2db93f243be6c40157d46590, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 739147993}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnRollAllDice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &803980334
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +742,53 @@ MonoBehaviour:
   isConstant: 1
   constantValue: 2
   referenceValue: {fileID: 0}
+--- !u!1 &1112248047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112248048}
+  - component: {fileID: 1112248049}
+  m_Layer: 0
+  m_Name: FactionsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112248048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112248047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112248049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112248047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2990fa25b824d5746af395a380f817bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
+  loadOnAwake: 0
+  factionCatalogue: {fileID: 11400000, guid: 689e299c84650cc4f8eca95d4af999de, type: 2}
 --- !u!1 &1259255885
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +873,7 @@ RectTransform:
   - {fileID: 730935039}
   - {fileID: 123821721}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -784,7 +1120,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2013056708
 GameObject:
@@ -834,7 +1170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
-  loadOnAwake: 1
+  loadOnAwake: 0
   deckCatalogue: {fileID: 11400000, guid: e4f98f227a4d30041a1203bce289c6b8, type: 2}
   cardCatalogue: {fileID: 11400000, guid: 82e08c990ee691245b924a2e7e95af72, type: 2}
   playerCatalogue: {fileID: 11400000, guid: 165f5d0beffa87e4fb86e371b1267ca9, type: 2}
@@ -1092,7 +1428,7 @@ RectTransform:
   m_Children:
   - {fileID: 1912398254}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

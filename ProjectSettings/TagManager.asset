@@ -50,3 +50,6 @@ TagManager:
   - name: Tokens
     uniqueID: 2742619871
     locked: 0
+  - name: Dice
+    uniqueID: 2379339493
+    locked: 0

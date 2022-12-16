@@ -28,7 +28,8 @@ MonoBehaviour:
   components:
   - {fileID: 6952011391535335900}
   - {fileID: -9046981182197435930}
-  boardGameObjects:
+  boardGameObjectCatalogue: {fileID: 11400000, guid: cead4f73d3eba5c4196003e26d3a16ef, type: 2}
+  startingBoardGameObjects:
   - {fileID: 11400000, guid: c3fa15c7a693dd64d889585ab291f7f1, type: 2}
   - {fileID: 11400000, guid: 5cb81c7e7ddac3044bb080911aa9b9d7, type: 2}
   - {fileID: 11400000, guid: 280869ca3984d5b4ca88ca6bf94b9844, type: 2}
@@ -44,9 +45,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b94d635da719aea4e9ddf2637f9a3fc9, type: 2}
   - {fileID: 11400000, guid: 048a5d72abe2b344d911c33e4b35dc92, type: 2}
   - {fileID: 11400000, guid: 5769bffad762428429f1a87fc9e449e6, type: 2}
-  - {fileID: 11400000, guid: d39e7fa81ffb44b42acd6a168cd8ccce, type: 2}
-  - {fileID: 11400000, guid: ebe126e12327d704192fb5dfbc4cc907, type: 2}
-  - {fileID: 11400000, guid: fda3e0da37fd7ae47a84187c8b9f6e05, type: 2}
+  - {fileID: 11400000, guid: 162738865bfd59544bce736f1d9a5658, type: 2}
+  - {fileID: 11400000, guid: 162738865bfd59544bce736f1d9a5658, type: 2}
+  - {fileID: 11400000, guid: 162738865bfd59544bce736f1d9a5658, type: 2}
+  - {fileID: 11400000, guid: 162738865bfd59544bce736f1d9a5658, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
+  - {fileID: 11400000, guid: b71233d2cea36dd4a9056f73378e3cba, type: 2}
 --- !u!114 &6952011391535335900
 MonoBehaviour:
   m_ObjectHideFlags: 0

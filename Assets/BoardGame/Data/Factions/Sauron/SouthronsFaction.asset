@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad29d9d921f22d643b86013f81842459, type: 3}
+  m_Name: SouthronsFaction
+  m_EditorClassIdentifier: 
+  guid: 8
+  displayName: Southrons
+  isActive: {fileID: 11400000, guid: 69b91271182212e42bcf183807727df7, type: 2}
+  diplomacyStatus: {fileID: 11400000, guid: 33d172f669a610b40b0afae652e23755, type: 2}

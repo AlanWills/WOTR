@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eeff87f7c3132740841633f19d7d41c, type: 3}
+  m_Name: FreePeoplesDebugMenus
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: cee3f163055110c49a8f63a902c7c493, type: 2}
+  - {fileID: 11400000, guid: 45b9e5a45ec17a64aa96ef7ef8bfbbde, type: 2}
+  - {fileID: 11400000, guid: e9ff124fa385d2e478f8f93cd7cfb14a, type: 2}
+  - {fileID: 11400000, guid: a5e9f160815d82248afdcae9f1d46413, type: 2}
+  - {fileID: 11400000, guid: 6fe0b84190cd4ae4bb6dce212dfe8244, type: 2}
+  menuPriority: 100

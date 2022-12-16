@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 833b58547c317b04aab605627aeb37e7, type: 3}
   m_Name: FreePeoplesArmyEventsDeckDebugMenu
   m_EditorClassIdentifier: 
-  displayName: FP Army Events Deck
-  menuPriority: 13
+  displayName: Free Peoples Army Events Deck
+  menuPriority: 100
   deck: {fileID: 11400000, guid: ad801d32aad4fcb42aa5ecf6d468622f, type: 2}

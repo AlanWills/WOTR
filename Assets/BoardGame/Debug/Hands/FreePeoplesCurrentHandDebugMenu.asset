@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b8afde225f45d43a997cacfcd5f219, type: 3}
   m_Name: FreePeoplesCurrentHandDebugMenu
   m_EditorClassIdentifier: 
-  displayName: FP Current Hand
-  menuPriority: 21
+  displayName: Free Peoples Current Hand
+  menuPriority: 102
   currentHand: {fileID: 11400000, guid: 3a63c58f16c85d7449e372ab91c53860, type: 2}
   sourceDecks:
   - {fileID: 11400000, guid: 0234e759dba60b04ca33f6d3b7b4990a, type: 2}

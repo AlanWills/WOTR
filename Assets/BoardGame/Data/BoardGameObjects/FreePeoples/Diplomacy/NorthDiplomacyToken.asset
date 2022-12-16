@@ -1,20 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-428907755108747714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608661c562582274f98bce622d496e6a, type: 3}
-  m_Name: TokenBoardGameObjectComponent
-  m_EditorClassIdentifier: 
-  startsFaceUp: 0
-  faceUpSprite: {fileID: 21300000, guid: 3f7d1712f0155554f88ca476a67b78d6, type: 3}
-  faceDownSprite: {fileID: 21300000, guid: 125f5a50543691b4699ccafc4bca5c50, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29,8 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 7890528944278020719}
-  - {fileID: -428907755108747714}
+  - {fileID: 1060489998263907204}
   guid: 6
+--- !u!114 &1060489998263907204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf9d35522061bb40846d8faac6e46df, type: 3}
+  m_Name: DiplomacyTokenBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  faction: {fileID: 11400000, guid: 252a15a6c480edf4abd4a56560df7ab0, type: 2}
+  activeSprite: {fileID: 21300000, guid: 3f7d1712f0155554f88ca476a67b78d6, type: 3}
+  passiveSprite: {fileID: 21300000, guid: 125f5a50543691b4699ccafc4bca5c50, type: 3}
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
 --- !u!114 &7890528944278020719
 MonoBehaviour:
   m_ObjectHideFlags: 0
