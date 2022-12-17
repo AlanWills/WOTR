@@ -250,6 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 535006997}
   - component: {fileID: 535006998}
+  - component: {fileID: 535006999}
   m_Layer: 0
   m_Name: BoardGameRuntimeManager
   m_TagString: Untagged
@@ -287,7 +288,7 @@ MonoBehaviour:
   snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
   loadOnAwake: 0
   boardGame: {fileID: 11400000, guid: 7fa2c9d08f663954482f61552a8bb72c, type: 2}
-  boardGameSetup: {fileID: 0}
+  boardGameSetup: {fileID: 11400000, guid: 85b82df2e9e339a439880ac955a21484, type: 2}
   onBoardGameSetup:
     m_PersistentCalls:
       m_Calls:
@@ -447,6 +448,35 @@ MonoBehaviour:
       - m_Target: {fileID: 1112248049}
         m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.FactionsManager, WOTR.BoardGame
         m_MethodName: OnBoardGameRuntimeShutdown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &535006999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535006996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4b6d6ca068d9e4185ae2b0c54f1946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 3ae4e59a5eef6804f85e249b96c3b9e3, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 535006998}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.BoardGameRuntimeManager,
+          WOTR.BoardGame
+        m_MethodName: OnAddBoardGameObject
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -752,6 +782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112248048}
   - component: {fileID: 1112248049}
+  - component: {fileID: 1112248050}
   m_Layer: 0
   m_Name: FactionsManager
   m_TagString: Untagged
@@ -789,6 +820,34 @@ MonoBehaviour:
   snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
   loadOnAwake: 0
   factionCatalogue: {fileID: 11400000, guid: 689e299c84650cc4f8eca95d4af999de, type: 2}
+--- !u!114 &1112248050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112248047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1defc7d6103cd0f4b96aefd734d0e3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: e1e965a8f9bc7cf49a59f5228a700e57, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1112248049}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.FactionsManager, WOTR.BoardGame
+        m_MethodName: OnAddFactionToGame
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1259255885
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,8 @@
 ﻿using Celeste.Debug.Menus;
+using Celeste.Events;
 using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace WOTR.BoardGame.Debug
@@ -11,6 +13,9 @@ namespace WOTR.BoardGame.Debug
         #region Properties and Fields
 
         [SerializeField] private List<Faction> factions = new List<Faction>();
+
+        [Header("Events")]
+        [SerializeField] private IntEvent addFactionToGameEvent;
 
         [NonSerialized] private List<bool> factionsVisible = new List<bool>();
 
@@ -28,11 +33,22 @@ namespace WOTR.BoardGame.Debug
 
         private bool DrawFactionDebugMenu(Faction faction, bool isVisible)
         {
+            if (GUILayout.Button(faction.DisplayName))
+            {
+                isVisible = !isVisible;
+            }
+
             if (isVisible)
             {
-                GUILayout.Label(faction.DisplayName);
-
-                faction.IsActive = GUILayout.Toggle(faction.IsActive, "Is Active");
+                using (var horizontal = new EditorGUILayout.HorizontalScope())
+                {
+                    if (GUILayout.Button("Add To Game", GUILayout.ExpandWidth(false)))
+                    {
+                        addFactionToGameEvent.Invoke(faction.Guid);
+                    }
+                    
+                    faction.IsActive = GUILayout.Toggle(faction.IsActive, "Is Active");
+                }
 
                 GUILayout.Label("Diplomacy Status");
 
@@ -47,10 +63,6 @@ namespace WOTR.BoardGame.Debug
                         DrawDiplomacyButton(faction, i, normalStyle, highlightedStyle);
                     }
                 }
-            }
-            else
-            {
-                isVisible = GUILayout.Button(faction.DisplayName);
             }
 
             return isVisible;

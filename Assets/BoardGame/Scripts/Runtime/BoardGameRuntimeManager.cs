@@ -1,6 +1,8 @@
-﻿using Celeste.BoardGame.Persistence;
+﻿using Celeste.BoardGame;
+using Celeste.BoardGame.Persistence;
 using Celeste.BoardGame.Runtime;
 using Celeste.Components;
+using Celeste.Events;
 using Celeste.Persistence;
 using System;
 using UnityEngine;
@@ -64,7 +66,7 @@ namespace WOTR.BoardGame.Runtime
 
         protected override void SetDefaultValues()
         {
-            LoadCommon(boardGameSetup.StartingBoardGameRuntimeState);
+            LoadCommon(boardGameSetup.startingBoardGameRuntimeState);
 
             onBoardGameSetup.Invoke(new BoardGameSetupArgs()
             {
@@ -91,6 +93,18 @@ namespace WOTR.BoardGame.Runtime
         #endregion
 
         #region Callbacks
+
+        public void OnAddBoardGameObject(AddBoardGameObjectArgs args)
+        {
+            BoardGameObject boardGameObject = boardGame.FindBoardGameObject(args.boardGameObjectGuid);
+            UnityEngine.Debug.Assert(boardGameObject != null, $"Could not find board game object with guid {args.boardGameObjectGuid}.");
+            BoardGameObjectRuntime boardGameObjectRuntime = boardGameRuntime.AddBoardGameObject(boardGameObject);
+            
+            if (boardGameObjectRuntime.TryFindComponent<IBoardGameObjectActor>(out var actor))
+            {
+                actor.iFace.SetCurrentLocationName(actor.instance, args.location);
+            }
+        }
 
         private void OnBoardGameChanged()
         {

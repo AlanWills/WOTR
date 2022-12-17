@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   helpText: 
   defaultValue: 0
-  onValueChanged: {fileID: 0}
+  onValueChanged: {fileID: 11400000, guid: 74a0fa0b14669d1469646794ec8f040a, type: 2}

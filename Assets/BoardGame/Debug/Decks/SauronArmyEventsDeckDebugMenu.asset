@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SauronArmyEventsDeckDebugMenu
   m_EditorClassIdentifier: 
   displayName: Sauron Army Events Deck
-  menuPriority: 50
+  menuPriority: 0
   deck: {fileID: 11400000, guid: 1c12f7f9b71487d4f83aa6afa6b86a65, type: 2}

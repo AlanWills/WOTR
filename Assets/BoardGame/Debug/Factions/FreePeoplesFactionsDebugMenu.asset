@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: FreePeoplesFactionsDebugMenu
   m_EditorClassIdentifier: 
   displayName: Free Peoples Factions
-  menuPriority: 104
+  menuPriority: 4
   factions:
   - {fileID: 11400000, guid: cac7066d8179c2b4ca7d71ae8904fc35, type: 2}
   - {fileID: 11400000, guid: 9811c37ec3b58b844a62123853ac516b, type: 2}
   - {fileID: 11400000, guid: 44ce61af8e2124345b11364494fec8ae, type: 2}
   - {fileID: 11400000, guid: 252a15a6c480edf4abd4a56560df7ab0, type: 2}
   - {fileID: 11400000, guid: 58361bd144237a346b2bac9dd89fb5e3, type: 2}
+  addFactionToGameEvent: {fileID: 11400000, guid: e1e965a8f9bc7cf49a59f5228a700e57, type: 2}

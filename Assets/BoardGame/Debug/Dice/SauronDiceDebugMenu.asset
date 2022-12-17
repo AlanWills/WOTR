@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SauronDiceDebugMenu
   m_EditorClassIdentifier: 
   displayName: Sauron Dice
-  menuPriority: 53
+  menuPriority: 3
   dice: {fileID: 11400000, guid: 9bfd288e1d6433b46afb47b3735dd3f8, type: 2}

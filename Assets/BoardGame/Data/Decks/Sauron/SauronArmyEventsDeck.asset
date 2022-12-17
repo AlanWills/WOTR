@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SauronArmyEventsDeck
   m_EditorClassIdentifier: 
   guid: 3
+  displayName: Army Events
   cardShuffler: {fileID: 11400000, guid: 11dc5752594575548bbe3683aeefb0ca, type: 2}
   cardAddedToDrawPileEvent: {fileID: 11400000, guid: 2911d90e9a283ed4c83c8465390411e0, type: 2}
   cardRemovedFromDrawPileEvent: {fileID: 11400000, guid: b903a2830c14c3f499caa7fc312a4230, type: 2}

@@ -53,7 +53,7 @@ namespace WOTR.BoardGame.Runtime
 
         public void OnBoardGameSetup(BoardGameSetupArgs args)
         {
-            LoadCommon(args.boardGameSetup.StartingFactionsState);
+            LoadCommon(args.boardGameSetup.startingFactionsState);
         }
 
         public void OnBoardGameLoaded(BoardGameLoadedArgs args)
@@ -63,6 +63,20 @@ namespace WOTR.BoardGame.Runtime
 
         public void OnBoardGameRuntimeShutdown(BoardGameShutdownArgs args)
         {
+        }
+
+        public void OnAddFactionToGame(int factionGuid)
+        {
+            if (!factions.Exists(x => x.Guid == factionGuid))
+            {
+                Faction faction = factionCatalogue.FindByGuid(factionGuid);
+                UnityEngine.Debug.Assert(faction != null, $"Could not find {nameof(Faction)} with guid {factionGuid}.");
+                factions.Add(faction);
+            }
+            else
+            {
+                UnityEngine.Debug.LogAssertion($"Faction with guid {factionGuid} has already been added.");
+            }
         }
 
         #endregion

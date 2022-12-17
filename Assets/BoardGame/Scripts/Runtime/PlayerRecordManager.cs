@@ -58,7 +58,7 @@ namespace WOTR.BoardGame.Runtime
 
         public void OnBoardGameSetup(BoardGameSetupArgs args)
         {
-            LoadCommon(args.boardGameSetup.StartingPlayersState);
+            LoadCommon(args.boardGameSetup.startingPlayersState);
         }
 
         public void OnBoardGameLoaded(BoardGameLoadedArgs args)

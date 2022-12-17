@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FreePeoplesDiceDebugMenu
   m_EditorClassIdentifier: 
   displayName: Free Peoples Dice
-  menuPriority: 103
+  menuPriority: 3
   dice: {fileID: 11400000, guid: 5037a8609d0c3884896365fcc30de396, type: 2}

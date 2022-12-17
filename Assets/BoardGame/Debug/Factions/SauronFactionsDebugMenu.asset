@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: SauronFactionsDebugMenu
   m_EditorClassIdentifier: 
   displayName: Sauron Factions
-  menuPriority: 54
+  menuPriority: 4
   factions:
   - {fileID: 11400000, guid: 1b451e45a29155540a8b2be65bd97204, type: 2}
   - {fileID: 11400000, guid: 2767985f0ee2e7746bec466996ef22c1, type: 2}
   - {fileID: 11400000, guid: 83f49613f45f5724aabd174c9e49fff0, type: 2}
+  addFactionToGameEvent: {fileID: 11400000, guid: e1e965a8f9bc7cf49a59f5228a700e57, type: 2}

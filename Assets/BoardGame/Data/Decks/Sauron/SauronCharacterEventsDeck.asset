@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SauronCharacterEventsDeck
   m_EditorClassIdentifier: 
   guid: 4
+  displayName: Character Events
   cardShuffler: {fileID: 11400000, guid: 11dc5752594575548bbe3683aeefb0ca, type: 2}
   cardAddedToDrawPileEvent: {fileID: 11400000, guid: d098f2b7d50a0f849be506deed721681, type: 2}
   cardRemovedFromDrawPileEvent: {fileID: 11400000, guid: 12a7d37b7aebe4a42b34b5e1af53efec, type: 2}

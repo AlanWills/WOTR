@@ -19,27 +19,241 @@ MonoBehaviour:
     - typeName: LocationsUsingLookupBoardGameComponent
       data: '{}'
     boardGameObjectRuntimes:
-    - name: Free Peoples Character Events Deck
+    - name: 
+      guid: 1
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FreePeoplesArmyEventsDeckLocation"}'
+      - typeName: DeckBoardGameObjectComponent
+        data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
+    - name: 
       guid: 2
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: "{\r\n  \"currentLocationName\": \"FreePeoplesCharacterEventsDeckLocation\"\r\n}"
+        data: '{"currentLocationName":"FreePeoplesCharacterEventsDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
-        data: "{\r\n  \"cardsInDrawPile\": [\r\n    10,\r\n    11,\r\n    12,\r\n   
-          13,\r\n    14,\r\n    15,\r\n    16,\r\n    17,\r\n    18,\r\n    19,\r\n   
-          20,\r\n    21,\r\n    22,\r\n    23,\r\n    24,\r\n    25,\r\n    26,\r\n   
-          27,\r\n    28,\r\n    29,\r\n    30,\r\n    31,\r\n    32,\r\n    33,\r\n   
-          34,\r\n    35\r\n  ],\r\n  \"cardsInDiscardPile\": [],\r\n  \"cardsInRemovedPile\":
-          []\r\n}"
-    - name: FreePeoplesArmyEventsDeckBoardGameObject
-      guid: 2
+        data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
+    - name: 
+      guid: 19
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: "{\r\n  \"currentLocationName\": \"FreePeoplesArmyEventsDeckLocation\"\r\n}"
+        data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 19
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 19
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 19
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 3
+      components:
+      - typeName: PrefabBoardGameObjectActor
+        data: '{"currentLocationName":"DwarvesDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 6
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NorthDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 4
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"ElvesDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 7
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"RohanDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 5
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"GondorDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 15
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SouthronsDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 13
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"IsengardDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 14
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MordorDiplomacyTokenStartingLocation"}'
+      - typeName: DiplomacyTokenBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 8
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"ElvenRing1"}'
+      - typeName: TooltipBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 9
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"ElvenRing2"}'
+      - typeName: TooltipBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 10
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"ElvenRing3"}'
+      - typeName: TooltipBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 11
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronArmyEventsDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
-        data: "{\r\n  \"cardsInDrawPile\": [1,2,3,4,5,6,7,8,9,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52],\r\n 
-          \"cardsInDiscardPile\": [],\r\n  \"cardsInRemovedPile\": []\r\n}"
+        data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
+    - name: 
+      guid: 12
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronCharacterEventsDeckLocation"}'
+      - typeName: DeckBoardGameObjectComponent
+        data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
+    - name: 
+      guid: 20
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SauronDiceLocation"}'
+      - typeName: Die2DBoardGameObjectComponent
+        data: '{"currentValue":0}'
+      - typeName: StaticOwnerBoardGameObjectComponent
+        data: '{}'
   startingFactionsState:
-    factions: []
+    factions:
+    - guid: 1
+      isActive: 0
+      diplomacyStatus: 0
+    - guid: 2
+      isActive: 1
+      diplomacyStatus: 0
+    - guid: 3
+      isActive: 0
+      diplomacyStatus: 1
+    - guid: 4
+      isActive: 0
+      diplomacyStatus: 0
+    - guid: 5
+      isActive: 0
+      diplomacyStatus: 0
+    - guid: 6
+      isActive: 1
+      diplomacyStatus: 2
+    - guid: 7
+      isActive: 1
+      diplomacyStatus: 2
+    - guid: 8
+      isActive: 1
+      diplomacyStatus: 1
   startingPlayersState:
-    playerRecords: []
+    playerRecords:
+    - guid: 1
+      cardsInHand: []
+      cardsOnStage: []
+    - guid: 2
+      cardsInHand: []
+      cardsOnStage: []

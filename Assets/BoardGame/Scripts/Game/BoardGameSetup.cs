@@ -19,13 +19,9 @@ namespace WOTR.BoardGame
     {
         #region Properties and Fields
 
-        public BoardGameRuntimeDTO StartingBoardGameRuntimeState => startingBoardGameRuntimeState;
-        public FactionsManagerDTO StartingFactionsState => startingFactionsState;
-        public PlayerRecordManagerDTO StartingPlayersState => startingPlayersState;
-
-        [SerializeField] private BoardGameRuntimeDTO startingBoardGameRuntimeState;
-        [SerializeField] private FactionsManagerDTO startingFactionsState;
-        [SerializeField] private PlayerRecordManagerDTO startingPlayersState;
+        public BoardGameRuntimeDTO startingBoardGameRuntimeState;
+        public FactionsManagerDTO startingFactionsState;
+        public PlayerRecordManagerDTO startingPlayersState;
 
         #endregion
 
