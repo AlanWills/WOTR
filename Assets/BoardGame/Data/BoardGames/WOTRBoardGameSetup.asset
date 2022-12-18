@@ -73,56 +73,56 @@ MonoBehaviour:
       guid: 3
       components:
       - typeName: PrefabBoardGameObjectActor
-        data: '{"currentLocationName":"DwarvesDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 6
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"NorthDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 4
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"ElvesDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 7
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"RohanDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 5
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"GondorDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 15
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"SouthronsDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 13
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"IsengardDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 
       guid: 14
       components:
       - typeName: PrefabActorBoardGameObjectComponent
-        data: '{"currentLocationName":"MordorDiplomacyTokenStartingLocation"}'
+        data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
     - name: 

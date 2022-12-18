@@ -11,7 +11,7 @@ namespace WOTR.BoardGame.Components
 {
     [DisplayName("Diplomacy Token")]
     [CreateAssetMenu(fileName = nameof(DiplomacyTokenBoardGameObjectComponent), menuName = "WOTR/Board Game/Board Game Object Components/Diplomacy Token")]
-    public class DiplomacyTokenBoardGameObjectComponent : BoardGameObjectComponent, IBoardGameObjectToken, IBoardGameObjectTooltip
+    public class DiplomacyTokenBoardGameObjectComponent : BoardGameObjectComponent, IBoardGameObjectToken, IBoardGameObjectTooltip, IBoardGameObjectDiplomacyToken
     {
         #region Properties and Fields
 
@@ -29,17 +29,17 @@ namespace WOTR.BoardGame.Components
 
         #region IToken
 
-        public void SetFaceUp(Instance instance, bool isFaceUp)
+        void IBoardGameObjectToken.SetFaceUp(Instance instance, bool isFaceUp)
         {
             faction.IsActive = isFaceUp;
         }
 
-        public bool IsFaceUp(Instance instance)
+        bool IBoardGameObjectToken.IsFaceUp(Instance instance)
         {
             return faction.IsActive;
         }
 
-        public void Flip(Instance instance)
+        void IBoardGameObjectToken.Flip(Instance instance)
         {
             faction.IsActive = !faction.IsActive;
         }
@@ -57,6 +57,30 @@ namespace WOTR.BoardGame.Components
         public void RemoveIsFaceUpChangedCallback(Instance instance, UnityAction<ValueChangedArgs<bool>> callback)
         {
             faction.RemoveIsActiveChangedCallback(callback);
+        }
+
+        #endregion
+
+        #region IDiplomacy
+
+        public bool IsActive(Instance instance)
+        {
+            return faction.IsActive;
+        }
+
+        public int GetDiplomacyStatus(Instance instance)
+        {
+            return faction.DiplomacyStatus;
+        }
+
+        public void AddDiplomacyStatusChangedCallback(UnityAction<ValueChangedArgs<int>> callback)
+        {
+            faction.AddDiplomacyStatusChangedCallback(callback);
+        }
+
+        public void RemoveDiplomacyStatusChangedCallback(UnityAction<ValueChangedArgs<int>> callback)
+        {
+            faction.RemoveDiplomacyStatusChangedCallback(callback);
         }
 
         #endregion

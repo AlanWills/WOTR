@@ -98,104 +98,6 @@ MonoBehaviour:
   cacheOnAwake: 1
   cacheOnEnable: 0
   uncacheOnDisable: 0
---- !u!1 &875646863226449034
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3681509386940583999}
-  - component: {fileID: 1630529799387518996}
-  m_Layer: 0
-  m_Name: GondorDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3681509386940583999
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875646863226449034}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.307, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3528723041674715791}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1630529799387518996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875646863226449034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: GondorDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
---- !u!1 &1380657291690229393
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6798738560628661817}
-  - component: {fileID: 4635589233141190261}
-  m_Layer: 0
-  m_Name: SouthronsDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6798738560628661817
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380657291690229393}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.321, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3528723041674715791}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4635589233141190261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380657291690229393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: SouthronsDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
 --- !u!1 &1547548620970401782
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,55 +257,6 @@ Transform:
   m_Father: {fileID: 1547548620970401780}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1547548621755136244
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1547548621755136245}
-  - component: {fileID: 1547548621755136242}
-  m_Layer: 0
-  m_Name: DwarvesDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1547548621755136245
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547548621755136244}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24800014, y: 0.29199994, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1489898851632240699}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1547548621755136242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547548621755136244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: DwarvesDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
 --- !u!1 &1547548622399921340
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +266,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1547548622399921341}
+  - component: {fileID: 7700118366118771327}
+  - component: {fileID: 2338343690614704776}
   m_Layer: 0
   m_Name: Diplomacy
   m_TagString: Untagged
@@ -439,6 +294,40 @@ Transform:
   m_Father: {fileID: 1547548620970401780}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7700118366118771327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547548622399921340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheId: DiplomacyTrackLocation
+  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
+  cacheOnAwake: 1
+  cacheOnEnable: 0
+  uncacheOnDisable: 0
+--- !u!114 &2338343690614704776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547548622399921340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4dc82614594074d946a0efd0032aa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diplomacyStatusContainers:
+  - {fileID: 1489898851632240699}
+  - {fileID: 3528723041674715791}
+  - {fileID: 6067096479464352135}
+  - {fileID: 3936229396022511165}
 --- !u!1 &1869191542822998496
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6067096479464352135}
+  - component: {fileID: 7269744035903999617}
   m_Layer: 0
   m_Name: Section3
   m_TagString: Untagged
@@ -466,61 +356,31 @@ Transform:
   m_LocalPosition: {x: 0.011, y: -4.124, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4476293677634226679}
-  - {fileID: 6114512355044604604}
+  m_Children: []
   m_Father: {fileID: 1547548622399921341}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1980157464650130518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2482041234157406394}
-  - component: {fileID: 6021351043722596719}
-  m_Layer: 0
-  m_Name: NorthDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2482041234157406394
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980157464650130518}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.26000023, y: 0.29199994, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1489898851632240699}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6021351043722596719
+--- !u!114 &7269744035903999617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980157464650130518}
+  m_GameObject: {fileID: 1869191542822998496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
+  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cacheId: NorthDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
+  layoutType: 2
+  horizontalAnchor: 1
+  verticalAnchor: 1
+  fixedRowCount: 1
+  fixedColumnCount: 2
+  squareType: 0
+  cellSize: {x: 0.4, y: 0.4}
+  reverseXDirection: 0
+  reverseYDirection: 1
 --- !u!1 &4531951502344716803
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1489898851632240699}
+  - component: {fileID: 716530507324399247}
   m_Layer: 0
   m_Name: Section1
   m_TagString: Untagged
@@ -614,14 +475,31 @@ Transform:
   m_LocalPosition: {x: 0, y: -1.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1547548621755136245}
-  - {fileID: 2482041234157406394}
-  - {fileID: 4935516507190967992}
-  - {fileID: 3085361576108883508}
+  m_Children: []
   m_Father: {fileID: 1547548622399921341}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &716530507324399247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316781692559581819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layoutType: 2
+  horizontalAnchor: 1
+  verticalAnchor: 1
+  fixedRowCount: 1
+  fixedColumnCount: 2
+  squareType: 0
+  cellSize: {x: 0.4, y: 0.4}
+  reverseXDirection: 0
+  reverseYDirection: 1
 --- !u!1 &5427384193424517734
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,55 +545,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheId: SauronRing3
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
---- !u!1 &5475992815739614785
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6114512355044604604}
-  - component: {fileID: 9185203384333186624}
-  m_Layer: 0
-  m_Name: MordorDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6114512355044604604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5475992815739614785}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.332, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6067096479464352135}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9185203384333186624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5475992815739614785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: MordorDiplomacyTokenStartingLocation
   gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
   cacheOnAwake: 1
   cacheOnEnable: 0
@@ -818,104 +647,6 @@ MonoBehaviour:
   cacheOnAwake: 1
   cacheOnEnable: 0
   uncacheOnDisable: 0
---- !u!1 &5671314203060306506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4935516507190967992}
-  - component: {fileID: 5196645483556823315}
-  m_Layer: 0
-  m_Name: ElvesDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4935516507190967992
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5671314203060306506}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24800014, y: -0.32000005, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1489898851632240699}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5196645483556823315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5671314203060306506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: ElvesDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
---- !u!1 &5870949770249178818
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3085361576108883508}
-  - component: {fileID: 3751668462956456393}
-  m_Layer: 0
-  m_Name: RohanDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3085361576108883508
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5870949770249178818}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.26799965, y: -0.32000005, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1489898851632240699}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3751668462956456393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5870949770249178818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: RohanDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
 --- !u!1 &5875383799774404672
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,6 +656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3528723041674715791}
+  - component: {fileID: 522618049064835275}
   m_Layer: 0
   m_Name: Section2
   m_TagString: Untagged
@@ -943,12 +675,31 @@ Transform:
   m_LocalPosition: {x: 0.011, y: -2.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3681509386940583999}
-  - {fileID: 6798738560628661817}
+  m_Children: []
   m_Father: {fileID: 1547548622399921341}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &522618049064835275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875383799774404672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layoutType: 2
+  horizontalAnchor: 1
+  verticalAnchor: 1
+  fixedRowCount: 1
+  fixedColumnCount: 2
+  squareType: 0
+  cellSize: {x: 0.4, y: 0.4}
+  reverseXDirection: 0
+  reverseYDirection: 1
 --- !u!1 &6869055790652497630
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,7 +710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3113307190368668007}
   - component: {fileID: 5135253031861926708}
-  - component: {fileID: 3844248572284139336}
+  - component: {fileID: 5878923778563814755}
   m_Layer: 0
   m_Name: Dice - Sauron
   m_TagString: Untagged
@@ -999,7 +750,7 @@ MonoBehaviour:
   cacheOnAwake: 1
   cacheOnEnable: 0
   uncacheOnDisable: 0
---- !u!114 &3844248572284139336
+--- !u!114 &5878923778563814755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1008,12 +759,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6869055790652497630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c21352809f5fa534d958cdae65d8ff8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   layoutType: 1
-  fixedRowCount: 2
+  horizontalAnchor: 0
+  verticalAnchor: 1
+  fixedRowCount: 1
   fixedColumnCount: 2
+  squareType: 0
   cellSize: {x: 0.4, y: 0.4}
   reverseXDirection: 0
   reverseYDirection: 0
@@ -1213,55 +967,6 @@ MonoBehaviour:
   cacheOnAwake: 1
   cacheOnEnable: 0
   uncacheOnDisable: 0
---- !u!1 &8073908519934228725
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4476293677634226679}
-  - component: {fileID: 4026543681889309820}
-  m_Layer: 0
-  m_Name: IsengardDiplomacyLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4476293677634226679
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8073908519934228725}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.302, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6067096479464352135}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4026543681889309820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8073908519934228725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 953e34078e940b24c9d71f2cfe11bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cacheId: IsengardDiplomacyTokenStartingLocation
-  gameObjectCache: {fileID: 11400000, guid: 71085d313dc756c44b79e9b935fa68a9, type: 2}
-  cacheOnAwake: 1
-  cacheOnEnable: 0
-  uncacheOnDisable: 0
 --- !u!1 &8240164141668516973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3936229396022511165}
+  - component: {fileID: 1648889403299380218}
   m_Layer: 0
   m_Name: AtWar
   m_TagString: Untagged
@@ -1293,6 +999,27 @@ Transform:
   m_Father: {fileID: 1547548622399921341}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1648889403299380218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8240164141668516973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layoutType: 2
+  horizontalAnchor: 1
+  verticalAnchor: 1
+  fixedRowCount: 1
+  fixedColumnCount: 2
+  squareType: 0
+  cellSize: {x: 0.4, y: 0.4}
+  reverseXDirection: 0
+  reverseYDirection: 1
 --- !u!1 &8556478112277997121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,7 +1030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2621930494076399245}
   - component: {fileID: 9019410855070333246}
-  - component: {fileID: 2887278457073430888}
+  - component: {fileID: 3560068073975792444}
   m_Layer: 0
   m_Name: Dice - Free Peoples
   m_TagString: Untagged
@@ -1343,7 +1070,7 @@ MonoBehaviour:
   cacheOnAwake: 1
   cacheOnEnable: 0
   uncacheOnDisable: 0
---- !u!114 &2887278457073430888
+--- !u!114 &3560068073975792444
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1352,12 +1079,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 8556478112277997121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c21352809f5fa534d958cdae65d8ff8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   layoutType: 1
-  fixedRowCount: 2
+  horizontalAnchor: 0
+  verticalAnchor: 1
+  fixedRowCount: 1
   fixedColumnCount: 2
+  squareType: 0
   cellSize: {x: 0.4, y: 0.4}
   reverseXDirection: 1
   reverseYDirection: 0

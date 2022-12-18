@@ -98,5 +98,15 @@ namespace WOTR.BoardGame
         {
             isActive.RemoveValueChangedCallback(callback);
         }
+
+        public void AddDiplomacyStatusChangedCallback(UnityAction<ValueChangedArgs<int>> callback)
+        {
+            diplomacyStatus.AddValueChangedCallback(callback);
+        }
+
+        public void RemoveDiplomacyStatusChangedCallback(UnityAction<ValueChangedArgs<int>> callback)
+        {
+            diplomacyStatus.RemoveValueChangedCallback(callback);
+        }
     }
 }
