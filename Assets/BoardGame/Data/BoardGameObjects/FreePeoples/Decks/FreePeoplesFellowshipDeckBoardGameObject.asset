@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7293597829991819041
+--- !u!114 &-3696369129539181497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
-  m_Name: PrefabBoardGameObjectActor
+  m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
-  customiseScale: 1
+  prefab: {fileID: 2994092156981890309, guid: 5458552296974a74e8f53dd3bff0df14, type: 3}
+  customiseScale: 0
   scale: {x: 1, y: 1, z: 1}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -25,13 +25,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 280983e2a31274041b5e3ef65674359c, type: 3}
-  m_Name: DwarvesDiplomacyToken
+  m_Name: FreePeoplesFellowshipDeckBoardGameObject
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -7293597829991819041}
-  - {fileID: 5927620812548500555}
-  guid: 3
---- !u!114 &5927620812548500555
+  - {fileID: -3696369129539181497}
+  - {fileID: 6877546117329595626}
+  guid: 21
+--- !u!114 &6877546117329595626
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,11 +40,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf9d35522061bb40846d8faac6e46df, type: 3}
-  m_Name: DiplomacyTokenBoardGameObjectComponent
+  m_Script: {fileID: 11500000, guid: e62afe27b765b174c94c762d55c59000, type: 3}
+  m_Name: DeckBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  faction: {fileID: 11400000, guid: cac7066d8179c2b4ca7d71ae8904fc35, type: 2}
-  activeSprite: {fileID: 21300000, guid: 30ee0506bba446946bc5cf7819501760, type: 3}
-  passiveSprite: {fileID: 21300000, guid: f6d3f64aef4dddf41a6638c97fac234f, type: 3}
-  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
-  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
+  deck: {fileID: 11400000, guid: ba8ff194c6a914344a8a8719d755c6f5, type: 2}
+  cardCatalogue: {fileID: 11400000, guid: 82e08c990ee691245b924a2e7e95af72, type: 2}

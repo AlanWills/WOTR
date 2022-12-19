@@ -7,6 +7,7 @@ namespace WOTR.BoardGame.Persistence
     [Serializable]
     public class PlayerRecordDTO
     {
+        public string name;
         public int guid;
         public List<CardRuntimeDTO> cardsInHand = new List<CardRuntimeDTO>();
         public List<CardRuntimeDTO> cardsOnStage = new List<CardRuntimeDTO>();
@@ -14,6 +15,7 @@ namespace WOTR.BoardGame.Persistence
         public PlayerRecordDTO(PlayerRecord wotrPlayerRecord)
         {
             guid = wotrPlayerRecord.Guid;
+            name = wotrPlayerRecord.name;
 
             {
                 cardsInHand.Capacity = wotrPlayerRecord.NumCardsInHand;

@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
   m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  defaultLocationName: ElvenRing3
   prefab: {fileID: 6457449385157240163, guid: c6090fef0cd4a3945859e16aaba937c5, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}

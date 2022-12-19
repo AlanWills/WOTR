@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
   m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  defaultLocationName: RohanDiplomacyTokenStartingLocation
   prefab: {fileID: 7383064779315381277, guid: 5805fc2b8fee37a47bf0ecf9c77b34e9, type: 3}
   customiseScale: 1
   scale: {x: 1, y: 1, z: 1}

@@ -19,21 +19,21 @@ MonoBehaviour:
     - typeName: LocationsUsingLookupBoardGameComponent
       data: '{}'
     boardGameObjectRuntimes:
-    - name: 
+    - name: FreePeoplesArmyEventsDeckBoardGameObject
       guid: 1
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FreePeoplesArmyEventsDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
         data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
-    - name: 
+    - name: FreePeoplesCharacterEventsDeckBoardGameObject
       guid: 2
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FreePeoplesCharacterEventsDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
         data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
-    - name: 
+    - name: FreePeoplesDie
       guid: 19
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -42,7 +42,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: FreePeoplesDie
       guid: 19
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -51,7 +51,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: FreePeoplesDie
       guid: 19
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -60,7 +60,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: FreePeoplesDie
       guid: 19
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -69,98 +69,98 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: DwarvesDiplomacyToken
       guid: 3
       components:
       - typeName: PrefabBoardGameObjectActor
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: NorthDiplomacyToken
       guid: 6
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: ElvesDiplomacyToken
       guid: 4
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: RohanDiplomacyToken
       guid: 7
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: GondorDiplomacyToken
       guid: 5
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SouthronsDiplomacyToken
       guid: 15
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: IsengardDiplomacyToken
       guid: 13
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: MordorDiplomacyToken
       guid: 14
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"DiplomacyTrackLocation"}'
       - typeName: DiplomacyTokenBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: ElvenRing1
       guid: 8
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"ElvenRing1"}'
       - typeName: TooltipBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: ElvenRing2
       guid: 9
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"ElvenRing2"}'
       - typeName: TooltipBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: ElvenRing3
       guid: 10
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"ElvenRing3"}'
       - typeName: TooltipBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronArmyEventsDeckBoardGameObject
       guid: 11
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronArmyEventsDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
         data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
-    - name: 
+    - name: SauronCharacterEventsDeckBoardGameObject
       guid: 12
       components:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronCharacterEventsDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
         data: '{"cardsInDrawPile":[],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -169,7 +169,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -178,7 +178,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -187,7 +187,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -196,7 +196,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -205,7 +205,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -214,7 +214,7 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
-    - name: 
+    - name: SauronDie
       guid: 20
       components:
       - typeName: PrefabActorBoardGameObjectComponent
@@ -223,37 +223,54 @@ MonoBehaviour:
         data: '{"currentValue":0}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
+    - name: FreePeoplesFellowshipDeckBoardGameObject
+      guid: 21
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FellowshipDeckLocation"}'
+      - typeName: DeckBoardGameObjectComponent
+        data: '{"cardsInDrawPile":[107,108,109,110],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
   startingFactionsState:
     factions:
     - guid: 1
+      name: DwarvesFaction
       isActive: 0
       diplomacyStatus: 0
     - guid: 2
+      name: ElvesFaction
       isActive: 1
       diplomacyStatus: 0
     - guid: 3
+      name: GondorFaction
       isActive: 0
       diplomacyStatus: 1
     - guid: 4
+      name: NorthFaction
       isActive: 0
       diplomacyStatus: 0
     - guid: 5
+      name: RohanFaction
       isActive: 0
       diplomacyStatus: 0
     - guid: 6
+      name: IsengardFaction
       isActive: 1
       diplomacyStatus: 2
     - guid: 7
+      name: MordorFaction
       isActive: 1
       diplomacyStatus: 2
     - guid: 8
+      name: SouthronsFaction
       isActive: 1
       diplomacyStatus: 1
   startingPlayersState:
     playerRecords:
     - guid: 1
+      name: FreePeoplesPlayerRecord
       cardsInHand: []
       cardsOnStage: []
     - guid: 2
+      name: SauronPlayerRecord
       cardsInHand: []
       cardsOnStage: []

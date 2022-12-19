@@ -25,7 +25,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
   m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  defaultLocationName: FreePeoplesDiceLocation
   prefab: {fileID: 7383064779315381277, guid: 62698d27ff86bd7479a9c3790a4c6c56, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}

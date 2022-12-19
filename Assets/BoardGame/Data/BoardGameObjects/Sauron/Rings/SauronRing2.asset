@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
   m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  defaultLocationName: SauronRing2
   prefab: {fileID: 3006241675340760672, guid: e74f7526b2739184e98f5c091c7d0284, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}

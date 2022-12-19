@@ -30,37 +30,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deck: {fileID: 11400000, guid: 5b2cc41397e53354f92e2c19f3a153c7, type: 2}
   cardCatalogue: {fileID: 11400000, guid: 82e08c990ee691245b924a2e7e95af72, type: 2}
-  startingDrawPileCards:
-  - {fileID: 11400000, guid: 50a71c92f50dbf94597130b3f3fffbe0, type: 2}
-  - {fileID: 11400000, guid: 0df76d03fe6a3774c80ff56a31ae3280, type: 2}
-  - {fileID: 11400000, guid: a82452aab1aebe24cae07262b3eb0b97, type: 2}
-  - {fileID: 11400000, guid: 47dde2d8525fb784d983b4c49a79ea5a, type: 2}
-  - {fileID: 11400000, guid: eaf379a9871397a4da8216e7a09610f3, type: 2}
-  - {fileID: 11400000, guid: 8fff53752ca1f4e4b981ced2ac7d2770, type: 2}
-  - {fileID: 11400000, guid: 881cbe6983e4c6240812fa3e1e7d1812, type: 2}
-  - {fileID: 11400000, guid: 5564b2dd7d2ae454483abdf46f76e06a, type: 2}
-  - {fileID: 11400000, guid: 3c716c67b93a1e94aa520cdb2bf8d457, type: 2}
-  - {fileID: 11400000, guid: 4abcd8b8072c2b74bba085bdf8d069e2, type: 2}
-  - {fileID: 11400000, guid: fabb42947ea97e544b0d0326050e44f2, type: 2}
-  - {fileID: 11400000, guid: 9a8693dfbea29b04eaaf5abb597cf6a7, type: 2}
-  - {fileID: 11400000, guid: e4eccafb9d15d0144b9408d09833ccfa, type: 2}
-  - {fileID: 11400000, guid: b7211b924dc767e4db7c7b19decb1cc7, type: 2}
-  - {fileID: 11400000, guid: c8157ff849186c44ba7bbe0ebdcc8428, type: 2}
-  - {fileID: 11400000, guid: 17c1bd44e8f6e8e4bb646b9f059f8b5b, type: 2}
-  - {fileID: 11400000, guid: 0e02302f09b176542b8596b0f6e69498, type: 2}
-  - {fileID: 11400000, guid: ac7bb760e54e52c47ac9884d142a007a, type: 2}
-  - {fileID: 11400000, guid: cae24548dbf97f246b021cb985117a9a, type: 2}
-  - {fileID: 11400000, guid: 5b81205b404a69243becd67c32459488, type: 2}
-  - {fileID: 11400000, guid: 74e042c59b05255439bfd0644a456a70, type: 2}
-  - {fileID: 11400000, guid: 15e352333fadb194fbfc4d0397a85f5e, type: 2}
-  - {fileID: 11400000, guid: fdcfd5b2bb8d3144ea25e9be804c1e62, type: 2}
-  - {fileID: 11400000, guid: fe45634c35821cb48befa41a9944825f, type: 2}
-  - {fileID: 11400000, guid: d3148cef5ae204648b9b1011b78a7843, type: 2}
-  - {fileID: 11400000, guid: d23dba4ba9823394288aa0a530abc3b2, type: 2}
-  - {fileID: 11400000, guid: 3b03053d9b8ad4847a07fead2322e13d, type: 2}
-  - {fileID: 11400000, guid: a6fd89efe4cefaa4cb2cfbd13a8b3c55, type: 2}
-  startingDiscardPileCards: []
-  startingRemovedPileCards: []
 --- !u!114 &8845736819711345552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +42,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
   m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  defaultLocationName: SauronCharacterEventsDeckLocation
   prefab: {fileID: 11050985517693462, guid: b520feb6dafcc7d4d91d9ab19820dc6c, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}
