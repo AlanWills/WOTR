@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Isengard
   isActive: {fileID: 11400000, guid: 15486baf6a847f0439f94fd9fd99ad67, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: 9d410a60c9e16ab4e922b27e20fa6dc1, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: 6d174e1befcfbd0428b27d1002e373fa, type: 2}
+  availableElites: {fileID: 11400000, guid: 7604bfeadd3fb784f8c68663bf3a77f3, type: 2}
+  availableLeaders: {fileID: 11400000, guid: da81548773303cc4093f69e1f43cbf32, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: cb971fb3f0be9ba48a1c871c625a0a15, type: 2}
+  removedElites: {fileID: 11400000, guid: 17974f73b51b26c418148fa7532e2f3d, type: 2}
+  removedLeaders: {fileID: 11400000, guid: f2697f51a7c413c439c97fc13e5fb2ab, type: 2}

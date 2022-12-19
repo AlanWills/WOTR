@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Elves
   isActive: {fileID: 11400000, guid: a88e54ad854fa8a45ba463a1a1f73f42, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: 16d007025236aac4fabc0077d1c4ddff, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: 6e2c5f60b9d197048a79fdc1987129b5, type: 2}
+  availableElites: {fileID: 11400000, guid: 8e62b1623ed6dfd4ea1ef5bd86d5aaf4, type: 2}
+  availableLeaders: {fileID: 11400000, guid: 791e9db7a28e5ea4eb4c366f7417f1fc, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: d8c8b7ab09ba0bb419c8d7d034c15320, type: 2}
+  removedElites: {fileID: 11400000, guid: 9a9cccdf1818df847b314a404b4f5ba8, type: 2}
+  removedLeaders: {fileID: 11400000, guid: 6261255315d471f4c858b28c07579b90, type: 2}

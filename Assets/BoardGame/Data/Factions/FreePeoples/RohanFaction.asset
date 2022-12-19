@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Rohan
   isActive: {fileID: 11400000, guid: 7d5351a4cf30d82438316fc0f1808d48, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: 90da8f06332537440aaead87cc26263a, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: 1a0750ce2e151884194f86ee653a790e, type: 2}
+  availableElites: {fileID: 11400000, guid: 1aba069ffd8194e48b8c00424d90fa5c, type: 2}
+  availableLeaders: {fileID: 11400000, guid: 8f0130391cad52b468138f34853e924b, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: 5c805295f0e5b0a4ba454a548b6860f6, type: 2}
+  removedElites: {fileID: 11400000, guid: 6b25baa79dfa3fa4297865f50a668129, type: 2}
+  removedLeaders: {fileID: 11400000, guid: d9e834ad0211cc9429a27f9448cb2926, type: 2}

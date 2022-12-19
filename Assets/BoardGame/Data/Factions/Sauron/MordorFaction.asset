@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Mordor
   isActive: {fileID: 11400000, guid: 7452eaeb283d662498bc4d2d083d42ee, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: f37b8fe14e073a940bb71650abc293cd, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: b0af102c907ee294a8c60959a79b0a7f, type: 2}
+  availableElites: {fileID: 11400000, guid: 54360139d94eb3445bbfda2e86029b4a, type: 2}
+  availableLeaders: {fileID: 11400000, guid: edcc7255d411d084497b7c389b96cf31, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: fc48f5931f201474fbf22d5f3c46e09b, type: 2}
+  removedElites: {fileID: 11400000, guid: 189160bc30db9724c9eb592c124c5fba, type: 2}
+  removedLeaders: {fileID: 11400000, guid: 5c4b4d7118ac5f74385d862b0f2ea638, type: 2}

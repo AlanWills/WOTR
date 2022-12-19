@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Dwarves
   isActive: {fileID: 11400000, guid: 1c7fd9b4202ec0a4c9a6d277167e8eed, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: 86d75f7b3cf43904bb06e45195a1e43a, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: 60f912fa8f919a54695627e2a9027292, type: 2}
+  availableElites: {fileID: 11400000, guid: 8189f4b0cf8e60d45a1d4d4e3b80f091, type: 2}
+  availableLeaders: {fileID: 11400000, guid: cfc39234d4fb8284487cfd2dd8a0d643, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: 52235e4fcfc6861439e5ccb6b1d1b49e, type: 2}
+  removedElites: {fileID: 11400000, guid: b7b8f043591f86840b98372c3590e4d5, type: 2}
+  removedLeaders: {fileID: 11400000, guid: f98a2f18b267eb24bb8bb22e96352970, type: 2}

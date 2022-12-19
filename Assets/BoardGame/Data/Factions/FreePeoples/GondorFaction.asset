@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Gondor
   isActive: {fileID: 11400000, guid: 53e8b5f7033bff74ba5980ad5051ba0f, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: abeec7eac47657047bd6bae694fb9bf8, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: a48bf30f26c09314c91dc7e04439c275, type: 2}
+  availableElites: {fileID: 11400000, guid: 3c9a17deef6e98a4c8a470f772cc5c44, type: 2}
+  availableLeaders: {fileID: 11400000, guid: 814ba0047ee5d6343b4a61de914f8744, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: eb423c92948de6f4dbb4700fa78a50c6, type: 2}
+  removedElites: {fileID: 11400000, guid: 9811a3b167ba8684eabf0022ef644174, type: 2}
+  removedLeaders: {fileID: 11400000, guid: 0c99db060a4378f4aafab9f97852b8f2, type: 2}

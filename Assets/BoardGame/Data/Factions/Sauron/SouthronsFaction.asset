@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: Southrons
   isActive: {fileID: 11400000, guid: 69b91271182212e42bcf183807727df7, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: 33d172f669a610b40b0afae652e23755, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: bd6eb8eb6deba4d4ca86aa305341e795, type: 2}
+  availableElites: {fileID: 11400000, guid: 4ab6db7db13307f41962b2848733b2fd, type: 2}
+  availableLeaders: {fileID: 11400000, guid: 85e7506c720dfa045ac6c5d16da1faf6, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: 4d56375c62b59c646aedfb006a760e60, type: 2}
+  removedElites: {fileID: 11400000, guid: 3aaaa21afb3f73a49a142477b6e82449, type: 2}
+  removedLeaders: {fileID: 11400000, guid: 83dc6711f0ebded4b89831f4264f3725, type: 2}

@@ -16,3 +16,9 @@ MonoBehaviour:
   displayName: North
   isActive: {fileID: 11400000, guid: 95df2c18a53c4cc4caa79d534a270e73, type: 2}
   diplomacyStatus: {fileID: 11400000, guid: 633e78fc81f6cbd418c095a0804fa979, type: 2}
+  availableSoldiers: {fileID: 11400000, guid: 0ab14da1803bfb543ac569b00fc0cb28, type: 2}
+  availableElites: {fileID: 11400000, guid: 9a48dc82257def5499789e92dc442f7f, type: 2}
+  availableLeaders: {fileID: 11400000, guid: 792cc29edf022ff4faefd42ab69404eb, type: 2}
+  removedSoldiers: {fileID: 11400000, guid: fe97064c90dd4ee40a7109ed6b1890cb, type: 2}
+  removedElites: {fileID: 11400000, guid: 3551307182f97644ebf45dc8969a5d5c, type: 2}
+  removedLeaders: {fileID: 11400000, guid: 4a585bfb02470fb4b9ee04fec2c3d43d, type: 2}
