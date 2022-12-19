@@ -108,29 +108,9 @@ namespace WOTR.BoardGame
             int indexOfSlash = assetPath.LastIndexOf('/');
             string parentFolder = indexOfSlash > 0 ? assetPath.Substring(0, indexOfSlash) : assetPath;
 
-            availableSoldiers = EditorOnly_CreateIfNecessary(availableSoldiers, $"{name}-AvailableSoldiers", parentFolder);
-            availableElites = EditorOnly_CreateIfNecessary(availableElites, $"{name}-AvailableElites", parentFolder);
-            availableLeaders = EditorOnly_CreateIfNecessary(availableLeaders, $"{name}-AvailableLeaders", parentFolder);
-            removedSoldiers = EditorOnly_CreateIfNecessary(removedSoldiers, $"{name}-RemovedSoldiers", parentFolder);
-            removedElites = EditorOnly_CreateIfNecessary(removedElites, $"{name}-RemovedElites", parentFolder);
-            removedLeaders = EditorOnly_CreateIfNecessary(removedLeaders, $"{name}-RemovedLeaders", parentFolder);
+            UnityEditor.EditorUtility.SetDirty(this);
 #endif
         }
-
-#if UNITY_EDITOR
-        private IntValue EditorOnly_CreateIfNecessary(IntValue intValue, string name, string parentFolder)
-        {
-            if (intValue == null)
-            {
-                intValue = ScriptableObject.CreateInstance<IntValue>();
-                intValue.name = name;
-                UnityEditor.AssetDatabase.CreateAsset(intValue, $"{parentFolder}/{intValue.name}.asset");
-                UnityEditor.AssetDatabase.SaveAssets();
-            }
-
-            return intValue;
-        }
-#endif
 
 #endregion
 
