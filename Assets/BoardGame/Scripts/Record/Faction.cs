@@ -38,10 +38,56 @@ namespace WOTR.BoardGame
             set => diplomacyStatus.Value = value;
         }
 
+        public int AvailableSoldiers
+        { 
+            get => availableSoldiers.Value;
+            set => availableSoldiers.Value = value;
+        }
+
+        public int AvailableElites
+        {
+            get => availableElites.Value;
+            set => availableElites.Value = value;
+        }
+
+        public int AvailableLeaders
+        {
+            get => availableLeaders.Value;
+            set => availableLeaders.Value = value;
+        }
+
+        public int RemovedSoldiers
+        {
+            get => removedSoldiers.Value;
+            set => removedSoldiers.Value = value;
+        }
+
+        public int RemovedElites
+        {
+            get => removedElites.Value;
+            set => removedElites.Value = value;
+        }
+
+        public int RemovedLeaders
+        {
+            get => removedLeaders.Value;
+            set => removedLeaders.Value = value;
+        }
+
         [SerializeField] private int guid;
         [SerializeField] private string displayName;
         [SerializeField] private BoolValue isActive;
         [SerializeField] private IntValue diplomacyStatus;
+
+        [Header("Available Army")]
+        [SerializeField] private IntValue availableSoldiers;
+        [SerializeField] private IntValue availableElites;
+        [SerializeField] private IntValue availableLeaders;
+
+        [Header("Removed Army")]
+        [SerializeField] private IntValue removedSoldiers;
+        [SerializeField] private IntValue removedElites;
+        [SerializeField] private IntValue removedLeaders;
 
         #endregion
 
@@ -56,9 +102,37 @@ namespace WOTR.BoardGame
                 UnityEditor.EditorUtility.SetDirty(this);
 #endif
             }
+
+#if UNITY_EDITOR
+            string assetPath = UnityEditor.AssetDatabase.GetAssetPath(this);
+            int indexOfSlash = assetPath.LastIndexOf('/');
+            string parentFolder = indexOfSlash > 0 ? assetPath.Substring(0, indexOfSlash) : assetPath;
+
+            availableSoldiers = EditorOnly_CreateIfNecessary(availableSoldiers, $"{name}-AvailableSoldiers", parentFolder);
+            availableElites = EditorOnly_CreateIfNecessary(availableElites, $"{name}-AvailableElites", parentFolder);
+            availableLeaders = EditorOnly_CreateIfNecessary(availableLeaders, $"{name}-AvailableLeaders", parentFolder);
+            removedSoldiers = EditorOnly_CreateIfNecessary(removedSoldiers, $"{name}-RemovedSoldiers", parentFolder);
+            removedElites = EditorOnly_CreateIfNecessary(removedElites, $"{name}-RemovedElites", parentFolder);
+            removedLeaders = EditorOnly_CreateIfNecessary(removedLeaders, $"{name}-RemovedLeaders", parentFolder);
+#endif
         }
 
-        #endregion
+#if UNITY_EDITOR
+        private IntValue EditorOnly_CreateIfNecessary(IntValue intValue, string name, string parentFolder)
+        {
+            if (intValue == null)
+            {
+                intValue = ScriptableObject.CreateInstance<IntValue>();
+                intValue.name = name;
+                UnityEditor.AssetDatabase.CreateAsset(intValue, $"{parentFolder}/{intValue.name}.asset");
+                UnityEditor.AssetDatabase.SaveAssets();
+            }
+
+            return intValue;
+        }
+#endif
+
+#endregion
 
         public void Initialize()
         {

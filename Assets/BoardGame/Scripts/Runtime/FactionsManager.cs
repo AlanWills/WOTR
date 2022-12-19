@@ -45,6 +45,13 @@ namespace WOTR.BoardGame.Runtime
 
                 faction.IsActive = factionDTO.isActive;
                 faction.DiplomacyStatus = factionDTO.diplomacyStatus;
+                faction.AvailableSoldiers = factionDTO.availableSoldiers;
+                faction.AvailableElites = factionDTO.availableElites;
+                faction.AvailableLeaders = factionDTO.availableLeaders;
+                faction.RemovedSoldiers = factionDTO.removedSoldiers;
+                faction.RemovedElites = factionDTO.removedElites;
+                faction.RemovedLeaders = factionDTO.removedLeaders;
+
                 factions.Add(faction);
             }
         }

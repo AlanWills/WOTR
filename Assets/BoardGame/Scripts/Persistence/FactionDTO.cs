@@ -9,6 +9,12 @@ namespace WOTR.BoardGame.Persistence
         public int guid;
         public bool isActive;
         public int diplomacyStatus;
+        public int availableSoldiers;
+        public int availableElites;
+        public int availableLeaders;
+        public int removedSoldiers;
+        public int removedElites;
+        public int removedLeaders;
 
         public FactionDTO(Faction faction)
         {
@@ -16,6 +22,12 @@ namespace WOTR.BoardGame.Persistence
             name = faction.name;
             isActive = faction.IsActive;
             diplomacyStatus = faction.DiplomacyStatus;
+            availableSoldiers = faction.AvailableSoldiers;
+            availableElites = faction.AvailableElites;
+            availableLeaders= faction.AvailableLeaders;
+            removedSoldiers = faction.RemovedSoldiers;
+            removedElites = faction.RemovedElites;
+            removedLeaders = faction.RemovedLeaders;
         }
     }
 }

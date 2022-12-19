@@ -4,7 +4,6 @@ using Celeste.UI;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using static PlasticGui.LaunchDiffParameters;
 
 namespace WOTR.BoardGame.UI
 {

@@ -63,9 +63,29 @@ namespace WOTR.BoardGame.Debug
                         DrawDiplomacyButton(faction, i, normalStyle, highlightedStyle);
                     }
                 }
+
+                faction.AvailableSoldiers = DrawUnitCountField(faction.AvailableSoldiers, "Available Soldiers");
+                faction.AvailableElites = DrawUnitCountField(faction.AvailableElites, "Available Elites");
+                faction.AvailableLeaders = DrawUnitCountField(faction.AvailableLeaders, "Available Leaders");
+                faction.RemovedSoldiers = DrawUnitCountField(faction.RemovedSoldiers, "Removed Soldiers");
+                faction.RemovedElites = DrawUnitCountField(faction.RemovedElites, "Removed Elites");
+                faction.RemovedLeaders = DrawUnitCountField(faction.RemovedLeaders, "Removed Leaders");
             }
 
             return isVisible;
+        }
+
+        private void SynchronizeVisibility()
+        {
+            if (factionsVisible.Count != factions.Count)
+            {
+                factionsVisible.Clear();
+
+                for (int i = 0, n = factions.Count; i < n; i++)
+                {
+                    factionsVisible.Add(false);
+                }
+            }
         }
 
         private void DrawDiplomacyButton(
@@ -80,17 +100,24 @@ namespace WOTR.BoardGame.Debug
             }
         }
 
-        private void SynchronizeVisibility()
+        private int DrawUnitCountField(int availableUnits, string label)
         {
-            if (factionsVisible.Count != factions.Count)
+            using (var horizontal = new GUILayout.HorizontalScope())
             {
-                factionsVisible.Clear();
+                GUILayout.Label($"{label}: {availableUnits}");
 
-                for (int i = 0, n = factions.Count; i < n; i++)
+                if (GUILayout.Button("+", GUILayout.ExpandWidth(false)))
                 {
-                    factionsVisible.Add(false);
+                    ++availableUnits;
+                }
+
+                if (GUILayout.Button("-", GUILayout.ExpandWidth(false)))
+                {
+                    --availableUnits;
                 }
             }
+
+            return availableUnits;
         }
     }
 }
