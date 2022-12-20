@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FactionUnitBoardGameObjectComponent
   m_EditorClassIdentifier: 
   unitType: 0
-  reAddToPoolOnDeath: 0
+  reAddToPoolOnDeath: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

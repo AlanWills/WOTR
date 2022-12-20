@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 280983e2a31274041b5e3ef65674359c, type: 3}
-  m_Name: SouthronsSoldierBoardGameObject
+  m_Name: MouthOfSauronBoardGameObject
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7343110872785122160}
-  - {fileID: 3878919808253328304}
-  guid: 42
---- !u!114 &3878919808253328304
+  - {fileID: 9057307651750502238}
+  - {fileID: 5701206941689294748}
+  guid: 0
+--- !u!114 &5701206941689294748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28,9 +28,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60bc9609bacb94945b37b8eb5064674b, type: 3}
   m_Name: FactionUnitBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  unitType: 0
-  reAddToPoolOnDeath: 1
---- !u!114 &7343110872785122160
+  unitType: 2
+  reAddToPoolOnDeath: 0
+--- !u!114 &9057307651750502238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,6 +42,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
   m_Name: PrefabActorBoardGameObjectComponent
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3116474279404757866, guid: b3e37055e0429d3448f28b24ef8e58c8, type: 3}
+  prefab: {fileID: 3116474279404757866, guid: e842623c7f8decc498af56af63136965, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}

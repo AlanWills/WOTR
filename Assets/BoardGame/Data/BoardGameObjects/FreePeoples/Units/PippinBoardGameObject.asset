@@ -10,13 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 280983e2a31274041b5e3ef65674359c, type: 3}
-  m_Name: SouthronsSoldierBoardGameObject
+  m_Name: PippinBoardGameObject
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7343110872785122160}
-  - {fileID: 3878919808253328304}
-  guid: 42
---- !u!114 &3878919808253328304
+  - {fileID: 3563566218756089433}
+  - {fileID: 4913771805629808318}
+  guid: 0
+--- !u!114 &3563566218756089433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
+  m_Name: PrefabActorBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3116474279404757866, guid: ee99adce75088b641808bd2d30bb9ef5, type: 3}
+  customiseScale: 0
+  scale: {x: 1, y: 1, z: 1}
+--- !u!114 &4913771805629808318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29,19 +44,4 @@ MonoBehaviour:
   m_Name: FactionUnitBoardGameObjectComponent
   m_EditorClassIdentifier: 
   unitType: 0
-  reAddToPoolOnDeath: 1
---- !u!114 &7343110872785122160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0420a6917f48bc548a6931f7bbc43e9d, type: 3}
-  m_Name: PrefabActorBoardGameObjectComponent
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 3116474279404757866, guid: b3e37055e0429d3448f28b24ef8e58c8, type: 3}
-  customiseScale: 0
-  scale: {x: 1, y: 1, z: 1}
+  reAddToPoolOnDeath: 0
