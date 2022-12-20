@@ -230,47 +230,795 @@ MonoBehaviour:
         data: '{"currentLocationName":"FellowshipDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
         data: '{"cardsInDrawPile":[107,108,109,110],"cardsInDiscardPile":[],"cardsInRemovedPile":[]}'
+    - name: DwarvesSoldierBoardGameObject
+      guid: 24
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Erebor"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: DwarvesSoldierBoardGameObject
+      guid: 24
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"EredLuin"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: DwarvesSoldierBoardGameObject
+      guid: 24
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"IronHills"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: DwarvesEliteBoardGameObject
+      guid: 22
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Erebor"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: DwarvesEliteBoardGameObject
+      guid: 22
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Erebor"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: DwarvesLeaderBoardGameObject
+      guid: 23
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Erebor"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesEliteBoardGameObject
+      guid: 25
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"GreyHavens"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesEliteBoardGameObject
+      guid: 25
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Rivendell"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesEliteBoardGameObject
+      guid: 25
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Rivendell"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesEliteBoardGameObject
+      guid: 25
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"WoodlandRealm"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesEliteBoardGameObject
+      guid: 25
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Lorien"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesEliteBoardGameObject
+      guid: 25
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Lorien"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesLeaderBoardGameObject
+      guid: 26
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Lorien"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesLeaderBoardGameObject
+      guid: 26
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"WoodlandRealm"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesLeaderBoardGameObject
+      guid: 26
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"GreyHavens"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesSoldierBoardGameObject
+      guid: 27
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"GreyHavens"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesLeaderBoardGameObject
+      guid: 26
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Rivendell"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesSoldierBoardGameObject
+      guid: 27
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"WoodlandRealm"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: ElvesSoldierBoardGameObject
+      guid: 27
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Lorien"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorEliteBoardGameObject
+      guid: 28
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasTirith"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorLeaderBoardGameObject
+      guid: 29
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasTirith"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasTirith"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasTirith"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasTirith"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolAmroth"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolAmroth"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolAmroth"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Osgiliath"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Osgiliath"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: GondorSoldierBoardGameObject
+      guid: 30
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Pelargir"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NorthEliteBoardGameObject
+      guid: 31
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NorthDowns"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NorthLeaderBoardGameObject
+      guid: 32
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Dale"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NorthSoldierBoardGameObject
+      guid: 33
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Bree"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NorthSoldierBoardGameObject
+      guid: 33
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Carrock"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NorthSoldierBoardGameObject
+      guid: 33
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Dale"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NorthSoldierBoardGameObject
+      guid: 33
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"TheShire"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: RohanEliteBoardGameObject
+      guid: 34
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Edoras"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: RohanLeaderBoardGameObject
+      guid: 35
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FordsOfIsen"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: RohanSoldierBoardGameObject
+      guid: 36
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Edoras"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: RohanSoldierBoardGameObject
+      guid: 36
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FordsOfIsen"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: RohanSoldierBoardGameObject
+      guid: 36
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FordsOfIsen"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: RohanSoldierBoardGameObject
+      guid: 36
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"HelmsDeep"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardEliteBoardGameObject
+      guid: 37
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Orthanc"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardSoldierBoardGameObject
+      guid: 38
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Orthanc"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardSoldierBoardGameObject
+      guid: 38
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Orthanc"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardSoldierBoardGameObject
+      guid: 38
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Orthanc"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardSoldierBoardGameObject
+      guid: 38
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Orthanc"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardSoldierBoardGameObject
+      guid: 38
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NorthDunland"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: IsengardSoldierBoardGameObject
+      guid: 38
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SouthDunland"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorEliteBoardGameObject
+      guid: 39
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"BaradDur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorEliteBoardGameObject
+      guid: 39
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"BaradDur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"BaradDur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"BaradDur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"BaradDur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Gorgoroth"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Gorgoroth"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Gorgoroth"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasMorgul"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasMorgul"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasMorgul"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasMorgul"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasMorgul"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Moria"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Moria"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MountGundabad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MountGundabad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Nurn"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Nurn"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Morannon"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Morannon"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Morannon"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Morannon"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: MordorSoldierBoardGameObject
+      guid: 40
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Morannon"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NazgulBoardGameObject
+      guid: 43
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Morannon"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NazgulBoardGameObject
+      guid: 43
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"MinasMorgul"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NazgulBoardGameObject
+      guid: 43
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"DolGuldur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: NazgulBoardGameObject
+      guid: 43
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"BaradDur"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsEliteBoardGameObject
+      guid: 41
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FarHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsEliteBoardGameObject
+      guid: 41
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NearHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsEliteBoardGameObject
+      guid: 41
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SouthRhun"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SouthRhun"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SouthRhun"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"SouthRhun"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Umbar"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Umbar"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"Umbar"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NorthRhun"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NorthRhun"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NearHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NearHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"NearHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FarHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FarHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
+    - name: SouthronsSoldierBoardGameObject
+      guid: 42
+      components:
+      - typeName: PrefabActorBoardGameObjectComponent
+        data: '{"currentLocationName":"FarHarad"}'
+      - typeName: FactionUnitBoardGameObjectComponent
+        data: '{}'
   startingFactionsState:
     factions:
-    - guid: 1
-      name: DwarvesFaction
+    - name: DwarvesFaction
+      guid: 1
       isActive: 0
       diplomacyStatus: 0
-    - guid: 2
-      name: ElvesFaction
+      availableSoldiers: 2
+      availableElites: 3
+      availableLeaders: 3
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: ElvesFaction
+      guid: 2
       isActive: 1
       diplomacyStatus: 0
-    - guid: 3
-      name: GondorFaction
+      availableSoldiers: 2
+      availableElites: 4
+      availableLeaders: 0
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: GondorFaction
+      guid: 3
       isActive: 0
       diplomacyStatus: 1
-    - guid: 4
-      name: NorthFaction
+      availableSoldiers: 6
+      availableElites: 4
+      availableLeaders: 3
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: NorthFaction
+      guid: 4
       isActive: 0
       diplomacyStatus: 0
-    - guid: 5
-      name: RohanFaction
+      availableSoldiers: 6
+      availableElites: 4
+      availableLeaders: 3
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: RohanFaction
+      guid: 5
       isActive: 0
       diplomacyStatus: 0
-    - guid: 6
-      name: IsengardFaction
+      availableSoldiers: 6
+      availableElites: 4
+      availableLeaders: 3
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: IsengardFaction
+      guid: 6
       isActive: 1
       diplomacyStatus: 2
-    - guid: 7
-      name: MordorFaction
+      availableSoldiers: 6
+      availableElites: 5
+      availableLeaders: 0
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: MordorFaction
+      guid: 7
       isActive: 1
       diplomacyStatus: 2
-    - guid: 8
-      name: SouthronsFaction
+      availableSoldiers: 8
+      availableElites: 4
+      availableLeaders: 4
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
+    - name: SouthronsFaction
+      guid: 8
       isActive: 1
       diplomacyStatus: 1
+      availableSoldiers: 10
+      availableElites: 3
+      availableLeaders: 0
+      removedSoldiers: 0
+      removedElites: 0
+      removedLeaders: 0
   startingPlayersState:
     playerRecords:
-    - guid: 1
-      name: FreePeoplesPlayerRecord
+    - name: FreePeoplesPlayerRecord
+      guid: 1
       cardsInHand: []
       cardsOnStage: []
-    - guid: 2
-      name: SauronPlayerRecord
+    - name: SauronPlayerRecord
+      guid: 2
       cardsInHand: []
       cardsOnStage: []

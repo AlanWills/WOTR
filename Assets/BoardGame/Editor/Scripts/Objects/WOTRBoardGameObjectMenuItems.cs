@@ -1,7 +1,6 @@
 ﻿using Celeste.BoardGame;
 using Celeste.BoardGame.Components;
 using CelesteEditor.Tools;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEditor;

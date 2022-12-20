@@ -25,6 +25,7 @@ namespace WOTR.BoardGame.Runtime
         [SerializeField] private UnityEvent<BoardGameLoadedArgs> onBoardGameLoaded = new UnityEvent<BoardGameLoadedArgs>();
         [SerializeField] private UnityEvent<BoardGameRuntime> onBoardGameReady = new UnityEvent<BoardGameRuntime>();
         [SerializeField] private UnityEvent<BoardGameShutdownArgs> onBoardGameShutdown = new UnityEvent<BoardGameShutdownArgs>();
+        [SerializeField] private UnityEvent<BoardGameRuntime, BoardGameObjectRuntime> onBoardGameAdded = new UnityEvent<BoardGameRuntime, BoardGameObjectRuntime>();
 
         [NonSerialized] private BoardGameRuntime boardGameRuntime;
 
@@ -104,6 +105,8 @@ namespace WOTR.BoardGame.Runtime
             {
                 actor.iFace.SetCurrentLocationName(actor.instance, args.location);
             }
+
+            onBoardGameAdded.Invoke(boardGameRuntime, boardGameObjectRuntime);
         }
 
         private void OnBoardGameChanged()
