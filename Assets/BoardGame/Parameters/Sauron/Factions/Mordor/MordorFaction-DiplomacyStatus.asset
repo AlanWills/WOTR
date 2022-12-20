@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d81649ea074f1e34ab9148dcbfaec9a2, type: 3}
-  m_Name: IsengardFaction_DiplomacyStatus
+  m_Name: MordorFaction-DiplomacyStatus
   m_EditorClassIdentifier: 
   helpText: 
   defaultValue: 0
-  onValueChanged: {fileID: 11400000, guid: ced48fcdc2e958346917933dbae4a34f, type: 2}
+  onValueChanged: {fileID: 11400000, guid: abaca95e5253b8a43aa08385df046078, type: 2}
   valueConstraints:
   - {fileID: 11400000, guid: 8ca0e79bfa9c38748bf0fe0a8d59ba2d, type: 2}
   - {fileID: 11400000, guid: b43911ed01137494c9a773a67832e326, type: 2}

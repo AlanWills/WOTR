@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d81649ea074f1e34ab9148dcbfaec9a2, type: 3}
-  m_Name: DwarvesFaction_DiplomacyStatus
+  m_Name: ElvesFaction-DiplomacyStatus
   m_EditorClassIdentifier: 
   helpText: 
   defaultValue: 0
-  onValueChanged: {fileID: 11400000, guid: ade12612dc401a345b4436f63f2090f7, type: 2}
+  onValueChanged: {fileID: 11400000, guid: f3730f3955e97274a8217ba673714874, type: 2}
   valueConstraints:
   - {fileID: 11400000, guid: 8ca0e79bfa9c38748bf0fe0a8d59ba2d, type: 2}
   - {fileID: 11400000, guid: b43911ed01137494c9a773a67832e326, type: 2}
