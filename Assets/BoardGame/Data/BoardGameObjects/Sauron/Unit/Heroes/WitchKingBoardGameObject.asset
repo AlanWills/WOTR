@@ -29,7 +29,7 @@ MonoBehaviour:
   components:
   - {fileID: 7469143838510408987}
   - {fileID: -1965792427675393275}
-  guid: 0
+  guid: 60
 --- !u!114 &7469143838510408987
 MonoBehaviour:
   m_ObjectHideFlags: 0
