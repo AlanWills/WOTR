@@ -1764,6 +1764,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3818796536321822884, guid: 69df806ec725063469e2d97fc19bb0ac, type: 3}
+      propertyPath: inputState
+      value: 
+      objectReference: {fileID: 11400000, guid: 8294e469dc48dcd48bef4ac737260cf9, type: 2}
+    - target: {fileID: 3818796536321822884, guid: 69df806ec725063469e2d97fc19bb0ac, type: 3}
       propertyPath: worldSpaceCamera
       value: 
       objectReference: {fileID: 599452321}

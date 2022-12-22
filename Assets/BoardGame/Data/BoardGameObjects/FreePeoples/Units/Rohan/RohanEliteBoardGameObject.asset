@@ -44,4 +44,20 @@ MonoBehaviour:
   components:
   - {fileID: -3949012977004323497}
   - {fileID: -1304563281114457620}
+  - {fileID: 6933945365383749449}
   guid: 34
+--- !u!114 &6933945365383749449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Rohan Elite
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}

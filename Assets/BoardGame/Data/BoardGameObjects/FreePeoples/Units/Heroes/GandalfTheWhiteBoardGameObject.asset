@@ -29,6 +29,7 @@ MonoBehaviour:
   components:
   - {fileID: 6348328518754694315}
   - {fileID: -6461797573601367282}
+  - {fileID: 8604153629208021999}
   guid: 48
 --- !u!114 &6348328518754694315
 MonoBehaviour:
@@ -45,3 +46,18 @@ MonoBehaviour:
   prefab: {fileID: 3116474279404757866, guid: dc99301109d45c64bb807715490c379a, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}
+--- !u!114 &8604153629208021999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Gandalf The White
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}

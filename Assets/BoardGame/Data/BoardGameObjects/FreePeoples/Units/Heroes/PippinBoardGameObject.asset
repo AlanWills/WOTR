@@ -30,7 +30,23 @@ MonoBehaviour:
   components:
   - {fileID: -3857288556236811334}
   - {fileID: 2848589951639298664}
+  - {fileID: 659266826255460760}
   guid: 53
+--- !u!114 &659266826255460760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Peregrin
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
 --- !u!114 &2848589951639298664
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,7 +11,8 @@
         "Celeste.Constants",
         "Celeste.Parameters",
         "Celeste.UI",
-        "Celeste.Debug"
+        "Celeste.Debug",
+        "Celeste.Input"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

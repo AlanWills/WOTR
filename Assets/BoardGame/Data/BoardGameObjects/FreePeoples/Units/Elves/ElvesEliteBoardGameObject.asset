@@ -15,6 +15,21 @@ MonoBehaviour:
   prefab: {fileID: 3116474279404757866, guid: ee86cdee207ed33478f01ab20cd2dcd3, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}
+--- !u!114 &-3274228791996357511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Elven Elite
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
 --- !u!114 &-173777130516336539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,4 +59,5 @@ MonoBehaviour:
   components:
   - {fileID: -8690413754010774094}
   - {fileID: -173777130516336539}
+  - {fileID: -3274228791996357511}
   guid: 25

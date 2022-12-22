@@ -229,8 +229,8 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FellowshipDeckLocation"}'
       - typeName: DeckBoardGameObjectComponent
-        data: "{\r\n  \"cardsInDrawPile\": [\r\n    108,\r\n    110,\r\n    111,\r\n   
-          113,\r\n    115,\r\n    116,\r\n    117,\r\n    114,\r\n    112\r\n  ],\r\n 
+        data: "{\r\n  \"cardsInDrawPile\": [\r\n    112,\r\n    114,\r\n    117,\r\n   
+          116,\r\n    115,\r\n    113,\r\n    111,\r\n    110,\r\n    108\r\n  ],\r\n 
           \"cardsInDiscardPile\": [],\r\n  \"cardsInRemovedPile\": []\r\n}"
     - name: DwarvesSoldierBoardGameObject
       guid: 24

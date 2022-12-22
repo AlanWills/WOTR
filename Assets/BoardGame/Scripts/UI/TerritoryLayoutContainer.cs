@@ -1,4 +1,5 @@
 ﻿using Celeste.Events;
+using Celeste.Input;
 using Celeste.UI;
 using System.Collections.Generic;
 using UnityEngine;
@@ -59,14 +60,9 @@ namespace WOTR.BoardGame.UI
             // If we get here, we've run out of anchors - maybe modify the UI entirely (aka conglomerate the army/ies into tokens or just have overflow UI for the models that wouldn't fit)
         }
 
-        public void OnMouseEnterTerritory(Vector2 position)
+        public void OnMouseEnterTerritory(InputState inputState)
         {
-            showTooltipEvent.Invoke(new TooltipArgs()
-            {
-                isWorldSpace = true,
-                position = transform.position,
-                text = territoryName
-            });
+            showTooltipEvent.Invoke(TooltipArgs.AnchoredToMouse(territoryName));
         }
 
         public void OnMouseExitTerritory()

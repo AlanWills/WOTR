@@ -29,6 +29,21 @@ MonoBehaviour:
   prefab: {fileID: 3116474279404757866, guid: 07e3b07947552824a8eededd3cd00fce, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}
+--- !u!114 &-752335752542265094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Northern Leader
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,4 +59,5 @@ MonoBehaviour:
   components:
   - {fileID: -4656230805236763731}
   - {fileID: -7605512429575163870}
+  - {fileID: -752335752542265094}
   guid: 32

@@ -15,7 +15,23 @@ MonoBehaviour:
   components:
   - {fileID: 5746839092626253032}
   - {fileID: 6160121690998244216}
+  - {fileID: 81604384928062465}
   guid: 54
+--- !u!114 &81604384928062465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Strider
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
 --- !u!114 &5746839092626253032
 MonoBehaviour:
   m_ObjectHideFlags: 0

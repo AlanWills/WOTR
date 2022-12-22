@@ -29,6 +29,7 @@ MonoBehaviour:
   components:
   - {fileID: 5149989813292585585}
   - {fileID: -6588978014446065298}
+  - {fileID: 7977605772067055521}
   guid: 37
 --- !u!114 &5149989813292585585
 MonoBehaviour:
@@ -45,3 +46,18 @@ MonoBehaviour:
   prefab: {fileID: 3116474279404757866, guid: 1ab9988f98cebc04ab41c04bd9107b8c, type: 3}
   customiseScale: 0
   scale: {x: 1, y: 1, z: 1}
+--- !u!114 &7977605772067055521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb094476dde694eabfb0055c91baab, type: 3}
+  m_Name: TooltipBoardGameObjectComponent
+  m_EditorClassIdentifier: 
+  tooltip: Isengard Elite
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}

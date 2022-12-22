@@ -90,12 +90,7 @@ namespace WOTR.BoardGame.Components
         public void ShowTooltip(Instance instance, Vector3 position, bool isWorldSpace)
         {
             bool isActive = faction.IsActive;
-            showTooltipEvent.Invoke(new TooltipArgs()
-            {
-                isWorldSpace = isWorldSpace,
-                position = position,
-                text = $"{faction.DisplayName} - {(isActive ? "Active" : "Passive")}"
-            });
+            showTooltipEvent.Invoke(TooltipArgs.AnchoredToMouse($"{faction.DisplayName} - {(isActive ? "Active" : "Passive")}"));
         }
 
         public void HideTooltip(Instance instance)
