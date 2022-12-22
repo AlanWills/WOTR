@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1683293198671189266}
   - component: {fileID: 6547689080688170517}
   - component: {fileID: 7274543550821600034}
-  - component: {fileID: 6890898752511462968}
+  - component: {fileID: 6860848033939018334}
   m_Layer: 0
   m_Name: Territory
   m_TagString: Untagged
@@ -67,7 +67,7 @@ MonoBehaviour:
   onMouseEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6860848033939018334}
         m_TargetAssemblyTypeName: WOTR.BoardGame.UI.TerritoryLayoutContainer, WOTR.BoardGame
         m_MethodName: OnMouseEnterTerritory
         m_Mode: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
   onMouseExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6860848033939018334}
         m_TargetAssemblyTypeName: WOTR.BoardGame.UI.TerritoryLayoutContainer, WOTR.BoardGame
         m_MethodName: OnMouseExitTerritory
         m_Mode: 1
@@ -124,7 +124,7 @@ PolygonCollider2D:
       - {x: -0.5877852, y: -0.80901706}
       - {x: 0.58778536, y: -0.80901694}
       - {x: 0.9510565, y: 0.30901712}
---- !u!114 &6890898752511462968
+--- !u!114 &6860848033939018334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,15 +133,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3892538675566676783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95590fe3941368e4da33425715951a14, type: 3}
+  m_Script: {fileID: 11500000, guid: 49a37eb73bd880648b46ea14af1c69e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layoutType: 2
-  horizontalAnchor: 1
-  verticalAnchor: 1
-  fixedRowCount: 1
-  fixedColumnCount: 1
-  squareType: 1
-  cellSize: {x: 0.2, y: 0.2}
-  reverseXDirection: 0
-  reverseYDirection: 0
+  territoryName: Territory
+  unitAnchors: []
+  showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
+  hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}

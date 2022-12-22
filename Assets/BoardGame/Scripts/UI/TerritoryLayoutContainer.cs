@@ -23,19 +23,23 @@ namespace WOTR.BoardGame.UI
 
         private void OnValidate()
         {
-            // Turn this into an editor button
             if (!Application.isPlaying && unitAnchors.Count != transform.childCount)
             {
-                unitAnchors.Clear();
-
-                for (int i = 0, n = transform.childCount; i < n; ++i)
-                {
-                    unitAnchors.Add(transform.GetChild(i));
-                }
+                FindAnchors();
             }
         }
 
         #endregion
+
+        public void FindAnchors()
+        {
+            unitAnchors.Clear();
+
+            for (int i = 0, n = transform.childCount; i < n; ++i)
+            {
+                unitAnchors.Add(transform.GetChild(i));
+            }
+        }
 
         #region Callbacks
 
