@@ -10,11 +10,23 @@ PrefabInstance:
     - target: {fileID: 764428334008353646, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: gameEvent
       value: 
-      objectReference: {fileID: 11400000, guid: a79577771aa618c48a7d2fa8d09fa2f4, type: 2}
+      objectReference: {fileID: 11400000, guid: 6deca9c0048fe674f858886adaf8e802, type: 2}
     - target: {fileID: 953718103577707799, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: deck
       value: 
       objectReference: {fileID: 11400000, guid: ba8ff194c6a914344a8a8719d755c6f5, type: 2}
+    - target: {fileID: 953718103577707799, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: showDrawPileFaceUp
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 953718103577707799, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: showDiscardPileFaceUp
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 953718103577707799, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
+      propertyPath: showRemovedPileFaceUp
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1773488037811156495, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_Name
       value: DrawPile
@@ -22,7 +34,7 @@ PrefabInstance:
     - target: {fileID: 2600355020248273089, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: gameEvent
       value: 
-      objectReference: {fileID: 11400000, guid: 03d400841a94d1c4fa6a018898aecdd0, type: 2}
+      objectReference: {fileID: 11400000, guid: 3d7594d40d906ee4b8d5646f8f9f0019, type: 2}
     - target: {fileID: 2735439605907569702, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -34,14 +46,14 @@ PrefabInstance:
     - target: {fileID: 3700095076692223975, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: gameEvent
       value: 
-      objectReference: {fileID: 11400000, guid: a0f828ebbd735724abeb029af76003b6, type: 2}
+      objectReference: {fileID: 11400000, guid: 1d661e84a2e7e1e4aae504f50851e987, type: 2}
     - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3787858154183539161, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,42 +74,42 @@ PrefabInstance:
     - target: {fileID: 4329939673588830786, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: gameEvent
       value: 
-      objectReference: {fileID: 11400000, guid: b67f2074b2e175941bfc8724426d65ba, type: 2}
+      objectReference: {fileID: 11400000, guid: 981d40380023f814bb95b2196b62d84f, type: 2}
     - target: {fileID: 4981230822473235018, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4981230822473235018, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5562985104201747100, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: gameEvent
       value: 
-      objectReference: {fileID: 11400000, guid: 26255869552a781438497988eb4c0bc9, type: 2}
+      objectReference: {fileID: 11400000, guid: 4e6e64beaeefd6d46a263972b09bdc0d, type: 2}
     - target: {fileID: 5910364766048247729, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.92
+      value: 5.04
       objectReference: {fileID: 0}
     - target: {fileID: 5910364766048247729, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3.44
+      value: 9.26
       objectReference: {fileID: 0}
     - target: {fileID: 6388104748374753806, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: gameEvent
       value: 
-      objectReference: {fileID: 11400000, guid: d468927ae1bdc4e448c8dbdc8b3293b7, type: 2}
+      objectReference: {fileID: 11400000, guid: dabd955b67254284198eac054e9526c5, type: 2}
     - target: {fileID: 7552539313813291622, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ebb5a85d52c46ba4aa6f749db3fbb6ee, type: 3}
+      objectReference: {fileID: 21300000, guid: d1a0228ab75707c4b9b1e64027bb8a4e, type: 3}
     - target: {fileID: 7852194111592425987, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7852194111592425987, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7852194111592425987, guid: 28ad14f29c6a6d74cbcd337ced3fa944, type: 3}
       propertyPath: m_LocalPosition.y

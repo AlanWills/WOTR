@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components: []
   guid: 110
-  cardBack: {fileID: 0}
-  cardFront: {fileID: 0}
+  cardBack: {fileID: 21300000, guid: ffa144f7f72f5d8488ba407948bb3ac1, type: 3}
+  cardFront: {fileID: 21300000, guid: 3e21a22a69a21a5439e2908d3b4e6f3b, type: 3}

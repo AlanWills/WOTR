@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37917e256ebc4d3499218eebc3a59e19, type: 3}
-  m_Name: GandalfTheGrey-FellowshipCard
+  m_Name: TheWitchKing-HeroCard
   m_EditorClassIdentifier: 
   components: []
-  guid: 108
-  cardBack: {fileID: 21300000, guid: 373cc13f86c05ef4bb3446b01389cb2f, type: 3}
-  cardFront: {fileID: 21300000, guid: d1a0228ab75707c4b9b1e64027bb8a4e, type: 3}
+  guid: 120
+  cardBack: {fileID: 21300000, guid: 8f98b79822a55c94db9ce97bf971f570, type: 3}
+  cardFront: {fileID: 21300000, guid: 580ce368884618249bdbb56c024da196, type: 3}
