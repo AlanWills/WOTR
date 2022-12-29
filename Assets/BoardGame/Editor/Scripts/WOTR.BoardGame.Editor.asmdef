@@ -8,7 +8,8 @@
         "Celeste.Components",
         "WOTR.BoardGame",
         "Celeste.Persistence.Editor",
-        "Celeste.Tools.Editor"
+        "Celeste.Tools.Editor",
+        "Celeste.Objects.Editor"
     ],
     "includePlatforms": [
         "Editor"

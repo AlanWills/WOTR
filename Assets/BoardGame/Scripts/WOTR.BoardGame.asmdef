@@ -12,7 +12,8 @@
         "Celeste.Parameters",
         "Celeste.UI",
         "Celeste.Debug",
-        "Celeste.Input"
+        "Celeste.Input",
+        "Celeste.OdinSerializer"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

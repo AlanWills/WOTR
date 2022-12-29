@@ -11,7 +11,7 @@ namespace WOTR.BoardGame.UI
     {
         #region Properties and Fields
 
-        [SerializeField] private string territoryName;
+        [SerializeField] private Territory territory;
         [SerializeField] private List<Transform> unitAnchors = new List<Transform>();
 
         [Header("Events")]
@@ -62,7 +62,7 @@ namespace WOTR.BoardGame.UI
 
         public void OnMouseEnterTerritory(InputState inputState)
         {
-            showTooltipEvent.Invoke(TooltipArgs.AnchoredToMouse(territoryName));
+            showTooltipEvent.Invoke(TooltipArgs.AnchoredToMouse(territory.DisplayName));
         }
 
         public void OnMouseExitTerritory()

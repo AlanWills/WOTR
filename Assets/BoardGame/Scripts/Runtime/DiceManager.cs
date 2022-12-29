@@ -2,7 +2,9 @@
 using Celeste.BoardGame.Objects;
 using Celeste.BoardGame.Runtime;
 using Celeste.Constants;
+using Celeste.Events;
 using UnityEngine;
+using WOTR.BoardGame.Events;
 using WOTR.BoardGame.Interfaces;
 
 namespace WOTR.BoardGame.Runtime
@@ -29,7 +31,7 @@ namespace WOTR.BoardGame.Runtime
                     // We either have no particular ID specified or our owner matches the id we specified
                     if (id == null ||
                         (boardGameObjectRuntime.TryFindComponent<IBoardGameObjectOwner>(out var owner) &&
-                         owner.iFace.GetOwner(owner.instance) == id))
+                         owner.iFace.GetOwnerGuid(owner.instance) == id))
                     {
                         dice.AddDie(die);
                     }

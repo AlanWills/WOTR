@@ -79,6 +79,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onMouseOver:
+    m_PersistentCalls:
+      m_Calls: []
   onMouseExit:
     m_PersistentCalls:
       m_Calls:
@@ -136,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a37eb73bd880648b46ea14af1c69e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  territoryName: Territory
+  territory: {fileID: 11400000, guid: e87ae0bb880b0384ead2422368726aa1, type: 2}
   unitAnchors: []
   showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
   hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}

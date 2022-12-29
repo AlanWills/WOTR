@@ -6,7 +6,7 @@ using Celeste.Events;
 using Celeste.Persistence;
 using System;
 using UnityEngine;
-using UnityEngine.Events;
+using WOTR.BoardGame.Events;
 
 namespace WOTR.BoardGame.Runtime
 {
@@ -21,11 +21,11 @@ namespace WOTR.BoardGame.Runtime
         [SerializeField] private BoardGameSetup boardGameSetup;
 
         [Header("Events")]
-        [SerializeField] private UnityEvent<BoardGameSetupArgs> onBoardGameSetup = new UnityEvent<BoardGameSetupArgs>();
-        [SerializeField] private UnityEvent<BoardGameLoadedArgs> onBoardGameLoaded = new UnityEvent<BoardGameLoadedArgs>();
-        [SerializeField] private UnityEvent<BoardGameRuntime> onBoardGameReady = new UnityEvent<BoardGameRuntime>();
-        [SerializeField] private UnityEvent<BoardGameShutdownArgs> onBoardGameShutdown = new UnityEvent<BoardGameShutdownArgs>();
-        [SerializeField] private UnityEvent<BoardGameRuntime, BoardGameObjectRuntime> onBoardGameAdded = new UnityEvent<BoardGameRuntime, BoardGameObjectRuntime>();
+        [SerializeField] private BoardGameSetupEvent onBoardGameSetupEvent;
+        [SerializeField] private BoardGameLoadedEvent onBoardGameLoadedEvent;
+        [SerializeField] private BoardGameReadyEvent onBoardGameReadyEvent;
+        [SerializeField] private BoardGameShutdownEvent onBoardGameShutdownEvent;
+        [SerializeField] private BoardGameObjectAddedEvent onBoardGameObjectAddedEvent;
 
         [NonSerialized] private BoardGameRuntime boardGameRuntime;
 
@@ -40,7 +40,7 @@ namespace WOTR.BoardGame.Runtime
 
         private void OnDisable()
         {
-            onBoardGameShutdown.Invoke(new BoardGameShutdownArgs() { });
+            onBoardGameShutdownEvent.Invoke(new BoardGameShutdownArgs() { });
             boardGameRuntime.Shutdown();
         }
 
@@ -57,25 +57,31 @@ namespace WOTR.BoardGame.Runtime
         {
             LoadCommon(dto);
 
-            onBoardGameLoaded.Invoke(new BoardGameLoadedArgs()
+            onBoardGameLoadedEvent.Invoke(new BoardGameLoadedArgs()
             {
                 boardGameRuntime = boardGameRuntime
             });
 
-            onBoardGameReady.Invoke(boardGameRuntime);
+            onBoardGameReadyEvent.Invoke(new BoardGameReadyArgs()
+            {
+                boardGameRuntime = boardGameRuntime
+            });
         }
 
         protected override void SetDefaultValues()
         {
             LoadCommon(boardGameSetup.startingBoardGameRuntimeState);
 
-            onBoardGameSetup.Invoke(new BoardGameSetupArgs()
+            onBoardGameSetupEvent.Invoke(new BoardGameSetupArgs()
             {
                 boardGameSetup = boardGameSetup,
                 boardGameRuntime = boardGameRuntime
             });
 
-            onBoardGameReady.Invoke(boardGameRuntime);
+            onBoardGameReadyEvent.Invoke(new BoardGameReadyArgs()
+            {
+                boardGameRuntime = boardGameRuntime
+            });
         }
 
         private void LoadCommon(BoardGameRuntimeDTO dto)
@@ -100,13 +106,17 @@ namespace WOTR.BoardGame.Runtime
             BoardGameObject boardGameObject = boardGame.FindBoardGameObject(args.boardGameObjectGuid);
             UnityEngine.Debug.Assert(boardGameObject != null, $"Could not find board game object with guid {args.boardGameObjectGuid}.");
             BoardGameObjectRuntime boardGameObjectRuntime = boardGameRuntime.AddBoardGameObject(boardGameObject);
-            
+
             if (boardGameObjectRuntime.TryFindComponent<IBoardGameObjectActor>(out var actor))
             {
                 actor.iFace.SetCurrentLocationName(actor.instance, args.location);
             }
 
-            onBoardGameAdded.Invoke(boardGameRuntime, boardGameObjectRuntime);
+            onBoardGameObjectAddedEvent.Invoke(new BoardGameObjectAddedArgs()
+            {
+                boardGameRuntime = boardGameRuntime, 
+                boardGameObjectRuntime = boardGameObjectRuntime
+            });
         }
 
         private void OnBoardGameChanged()

@@ -17,9 +17,14 @@ namespace WOTR.BoardGame.Components
 
         #endregion
 
-        public ID GetOwner(Instance instance)
+        public int GetOwnerGuid(Instance instance)
         {
-            return owner;
+            return owner.GetHashCode();
+        }
+
+        public bool IsOwnedBy(Instance instance, int ownerGuid)
+        {
+            return owner == ownerGuid;
         }
     }
 }

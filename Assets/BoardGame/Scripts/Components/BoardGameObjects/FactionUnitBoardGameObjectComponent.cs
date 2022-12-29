@@ -12,6 +12,7 @@ namespace WOTR.BoardGame.Components
     {
         #region Properties and Fields
 
+        // Will probably need to add the faction here at some point
         [SerializeField] private UnitType unitType;
         [SerializeField] private bool reAddToPoolOnDeath;
 

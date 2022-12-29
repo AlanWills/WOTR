@@ -1,9 +1,11 @@
 ﻿using Celeste.BoardGame.Runtime;
+using Celeste.Events;
 using Celeste.Persistence;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 using WOTR.BoardGame.Catalogue;
+using WOTR.BoardGame.Events;
 using WOTR.BoardGame.Persistence;
 
 namespace WOTR.BoardGame.Runtime
