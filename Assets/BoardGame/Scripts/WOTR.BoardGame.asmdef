@@ -13,7 +13,8 @@
         "Celeste.UI",
         "Celeste.Debug",
         "Celeste.Input",
-        "Celeste.OdinSerializer"
+        "Celeste.OdinSerializer",
+        "Celeste.FSM.Nodes"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

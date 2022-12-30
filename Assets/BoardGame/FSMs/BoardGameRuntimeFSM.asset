@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6236567742094624052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d684a2fdcd6e4e8336fa62bb135eb, type: 3}
+  m_Name: Multi Event Listener
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -312, y: 56}
+  ports:
+    keys:
+    - ' '
+    - argument
+    - BoardGameSetupEvent
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -6236567742094624052}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -272717175331184772}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: argument
+      _node: {fileID: -6236567742094624052}
+      _typeQualifiedName: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: BoardGameSetupEvent
+      _node: {fileID: -6236567742094624052}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 5815998077976189766}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 280e272e-4ef8-4c2b-b231-d12da4f2fa19
+  events:
+  - {fileID: 3182579293145937126}
+--- !u!114 &-3071559163358853373
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Draw Cards From Deck Raiser
+  m_EditorClassIdentifier: Celeste.DeckBuilding.Nodes:Celeste.DeckBuilding.Nodes:DrawCardsFromDeckRaiserNode
+  graph: {fileID: 11400000}
+  position: {x: 392, y: -392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -3071559163358853373}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 5815998077976189766}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -3071559163358853373}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 2699505037910471905}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 059b150e-3b6f-4cb1-9f78-c7f1e86cf2cf
+  argument:
+    deck: {fileID: 11400000, guid: 0234e759dba60b04ca33f6d3b7b4990a, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 6c0d663ac68d03b4c91fe4bcf373b449, type: 2}
+--- !u!114 &-272717175331184772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Draw Cards From Deck Raiser
+  m_EditorClassIdentifier: Celeste.DeckBuilding.Nodes:Celeste.DeckBuilding.Nodes:DrawCardsFromDeckRaiserNode
+  graph: {fileID: 11400000}
+  position: {x: 392, y: -184}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -272717175331184772}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 2699505037910471905}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -272717175331184772}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -6236567742094624052}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 5f7a5e87-ef8a-4d9e-90f0-33bb9d60ff34
+  argument:
+    deck: {fileID: 11400000, guid: 5b2cc41397e53354f92e2c19f3a153c7, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 263b9a7dc1a9d994c9a7f33fd5ee4cca, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae22ebe00c8798d4bb46b12fbdcffdfb, type: 3}
+  m_Name: BoardGameRuntimeFSM
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6236567742094624052}
+  - {fileID: 5815998077976189766}
+  - {fileID: -3071559163358853373}
+  - {fileID: 2699505037910471905}
+  - {fileID: -272717175331184772}
+  startNode: {fileID: -6236567742094624052}
+  finishNode: {fileID: 0}
+  parameters: []
+--- !u!114 &2699505037910471905
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Draw Cards From Deck Raiser
+  m_EditorClassIdentifier: Celeste.DeckBuilding.Nodes:Celeste.DeckBuilding.Nodes:DrawCardsFromDeckRaiserNode
+  graph: {fileID: 11400000}
+  position: {x: 104, y: -184}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 2699505037910471905}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -3071559163358853373}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 2699505037910471905}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -272717175331184772}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 5f7a5e87-ef8a-4d9e-90f0-33bb9d60ff34
+  argument:
+    deck: {fileID: 11400000, guid: 1c12f7f9b71487d4f83aa6afa6b86a65, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 263b9a7dc1a9d994c9a7f33fd5ee4cca, type: 2}
+--- !u!114 &3182579293145937126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a13447b077108418b5e7f9c43964b1, type: 3}
+  m_Name: BoardGameSetupEvent
+  m_EditorClassIdentifier: 
+  listenFor: {fileID: 11400000, guid: 04cfaef8ab3044f4a82ee5f18f457652, type: 2}
+--- !u!114 &5815998077976189766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Draw Cards From Deck Raiser
+  m_EditorClassIdentifier: Celeste.DeckBuilding.Nodes:Celeste.DeckBuilding.Nodes:DrawCardsFromDeckRaiserNode
+  graph: {fileID: 11400000}
+  position: {x: 104, y: -392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 5815998077976189766}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: BoardGameSetupEvent
+        node: {fileID: -6236567742094624052}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 5815998077976189766}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -3071559163358853373}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: d3c787e2-bfeb-4420-9b58-9990ffafbbd0
+  argument:
+    deck: {fileID: 11400000, guid: ad801d32aad4fcb42aa5ecf6d468622f, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 6c0d663ac68d03b4c91fe4bcf373b449, type: 2}
