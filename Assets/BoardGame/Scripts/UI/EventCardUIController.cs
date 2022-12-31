@@ -5,13 +5,14 @@ using Celeste.Input;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 using static UnityEngine.InputSystem.InputAction;
 
 namespace WOTR.BoardGame.UI
 {
     [AddComponentMenu("WOTR/Board Game/UI/Event Card UI Controller")]
-    public class EventCardUIController : MonoBehaviour, ICardUIController, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
+    public class EventCardUIController : MonoBehaviour, ICardUIController, IBeginDragHandler, IDragHandler, IEndDragHandler
 
     {
         #region Properties and Fields
@@ -117,14 +118,14 @@ namespace WOTR.BoardGame.UI
 
         #region Callbacks
 
-        public void OnPointerEnter(PointerEventData eventData)
+        public void OnPointerEnter(InputState inputState)
         {
             showMoreDetailInputAction.started += OnShowMoreDetailInputPressed;
             showMoreDetailInputAction.canceled += OnShowMoreDetailInputReleased;
             showMoreDetailInputAction.Enable();
         }
 
-        public void OnPointerExit(PointerEventData eventData)
+        public void OnPointerExit()
         {
             showMoreDetailInputAction.performed -= OnShowMoreDetailInputPressed;
             showMoreDetailInputAction.canceled -= OnShowMoreDetailInputReleased;
