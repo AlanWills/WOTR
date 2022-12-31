@@ -759,7 +759,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Standalone: NULL_CHECKS;KEY_CHECKS;COMPONENT_CHECKS
+    Standalone: NULL_CHECKS;KEY_CHECKS;COMPONENT_CHECKS;INDEX_CHECKS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

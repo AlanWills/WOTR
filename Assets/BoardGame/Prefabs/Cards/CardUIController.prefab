@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8993057402553464566}
   - component: {fileID: 8071938131089895383}
   - component: {fileID: 916082297799975254}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CardUIController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,6 +52,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 916082297799975254}
+  showMoreDetailInputAction:
+    m_Name: Show More Detail Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3621792d-3f0d-4d17-889d-3605a3496191
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f0e9b8c6-f30b-4232-b69f-21d8f8c0d15a
+      m_Path: <Keyboard>/alt
+      m_Interactions: Hold
+      m_Processors: 
+      m_Groups: 
+      m_Action: Show More Detail Input
+      m_Flags: 0
+    m_Flags: 0
+  showMoreDetailEvent: {fileID: 11400000, guid: 6cc0fec2da506ac42a6f491959ad672a, type: 2}
+  hideMoreDetailEvent: {fileID: 11400000, guid: 53a0e573bb457ce4c9790178dfabde64, type: 2}
 --- !u!222 &8071938131089895383
 CanvasRenderer:
   m_ObjectHideFlags: 0

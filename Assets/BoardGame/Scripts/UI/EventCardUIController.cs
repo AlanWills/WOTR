@@ -1,17 +1,27 @@
 ﻿using Celeste.DeckBuilding;
+using Celeste.DeckBuilding.Events;
 using Celeste.DeckBuilding.Interfaces;
+using Celeste.Input;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using static UnityEngine.InputSystem.InputAction;
 
 namespace WOTR.BoardGame.UI
 {
     [AddComponentMenu("WOTR/Board Game/UI/Event Card UI Controller")]
-    public class EventCardUIController : MonoBehaviour, ICardUIController, IBeginDragHandler, IDragHandler, IEndDragHandler
+    public class EventCardUIController : MonoBehaviour, ICardUIController, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
+
     {
         #region Properties and Fields
 
         [SerializeField] private Image image;
+        [SerializeField] private InputAction showMoreDetailInputAction;
+
+        [Header("Events")]
+        [SerializeField] private CardRuntimeEvent showMoreDetailEvent;
+        [SerializeField] private Celeste.Events.Event hideMoreDetailEvent;
 
         private CardRuntime card;
         private bool canPlay = false;
@@ -52,6 +62,16 @@ namespace WOTR.BoardGame.UI
         #endregion
 
         #region UI
+
+        private void ShowMoreDetail()
+        {
+            showMoreDetailEvent.Invoke(card);
+        }
+
+        private void HideMoreDetail()
+        {
+            hideMoreDetailEvent.Invoke();
+        }
 
         private void UpdateCanPlay(bool newCanPlay)
         {
@@ -96,6 +116,32 @@ namespace WOTR.BoardGame.UI
         #endregion
 
         #region Callbacks
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            showMoreDetailInputAction.started += OnShowMoreDetailInputPressed;
+            showMoreDetailInputAction.canceled += OnShowMoreDetailInputReleased;
+            showMoreDetailInputAction.Enable();
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            showMoreDetailInputAction.performed -= OnShowMoreDetailInputPressed;
+            showMoreDetailInputAction.canceled -= OnShowMoreDetailInputReleased;
+            showMoreDetailInputAction.Disable();
+
+            HideMoreDetail();
+        }
+
+        public void OnShowMoreDetailInputPressed(CallbackContext context)
+        {
+            ShowMoreDetail();
+        }
+
+        public void OnShowMoreDetailInputReleased(CallbackContext context)
+        {
+            HideMoreDetail();
+        }
 
         private void OnCanPlayChanged(bool newCanPlay)
         {

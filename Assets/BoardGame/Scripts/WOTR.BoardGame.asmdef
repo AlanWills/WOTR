@@ -14,7 +14,9 @@
         "Celeste.Debug",
         "Celeste.Input",
         "Celeste.OdinSerializer",
-        "Celeste.FSM.Nodes"
+        "Celeste.FSM.Nodes",
+        "Celeste.Tools",
+        "Unity.InputSystem"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

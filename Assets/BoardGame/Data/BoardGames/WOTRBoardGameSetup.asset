@@ -41,7 +41,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: FreePeoplesDie
@@ -50,7 +50,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: FreePeoplesDie
@@ -59,7 +59,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: FreePeoplesDie
@@ -68,7 +68,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"FreePeoplesDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: DwarvesDiplomacyToken
@@ -170,7 +170,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: SauronDie
@@ -179,7 +179,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: SauronDie
@@ -188,7 +188,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: SauronDie
@@ -197,7 +197,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: SauronDie
@@ -206,7 +206,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: SauronDie
@@ -215,7 +215,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: SauronDie
@@ -224,7 +224,7 @@ MonoBehaviour:
       - typeName: PrefabActorBoardGameObjectComponent
         data: '{"currentLocationName":"SauronDiceLocation"}'
       - typeName: Die2DBoardGameObjectComponent
-        data: '{"currentValue":0}'
+        data: '{"currentValue":1}'
       - typeName: StaticOwnerBoardGameObjectComponent
         data: '{}'
     - name: FreePeoplesFellowshipDeckBoardGameObject
