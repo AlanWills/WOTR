@@ -18,21 +18,6 @@ namespace WOTR.BoardGame.UI
 
         #endregion
 
-        #region Unity Methods
-
-        private void OnDisable()
-        {
-            foreach (var controller in diplomacyTokenControllers)
-            {
-                if (controller.BoardGameObjectRuntime.TryFindComponent<IBoardGameObjectDiplomacyToken>(out var diplomacy))
-                {
-                    diplomacy.iFace.RemoveDiplomacyStatusChangedCallback(OnDiplomacyStatusChanged);
-                }
-            }
-        }
-
-        #endregion
-
         public void OnChildAdded(GameObject gameObject)
         {
             BoardGameObjectUIController uiController = gameObject.GetComponent<BoardGameObjectUIController>();
@@ -65,9 +50,26 @@ namespace WOTR.BoardGame.UI
             }
         }
 
+        #region Callbacks
+
+        public void OnBoardGameShutdown(BoardGameShutdownArgs args)
+        {
+            foreach (var controller in diplomacyTokenControllers)
+            {
+                if (controller.BoardGameObjectRuntime.TryFindComponent<IBoardGameObjectDiplomacyToken>(out var diplomacy))
+                {
+                    diplomacy.iFace.RemoveDiplomacyStatusChangedCallback(OnDiplomacyStatusChanged);
+                }
+            }
+
+            diplomacyTokenControllers.Clear();
+        }
+
         private void OnDiplomacyStatusChanged(ValueChangedArgs<int> args)
         {
             Layout();
         }
+
+        #endregion
     }
 }

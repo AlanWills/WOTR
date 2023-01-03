@@ -294,6 +294,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!224 &558538731 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+  m_PrefabInstance: {fileID: 4149606651156053465}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &580919640 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4400602521266825473, guid: cb7ac9fec4b5b3743ad49ca1e9c25323, type: 3}
@@ -528,8 +533,10 @@ GameObject:
   - component: {fileID: 1004010937}
   - component: {fileID: 1004010936}
   - component: {fileID: 1004010935}
-  - component: {fileID: 1004010940}
+  - component: {fileID: 1004010942}
   - component: {fileID: 1004010939}
+  - component: {fileID: 1004010940}
+  - component: {fileID: 1004010941}
   m_Layer: 5
   m_Name: Canvas - MoreCardDetail
   m_TagString: Untagged
@@ -611,6 +618,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1863910271}
+  - {fileID: 558538731}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -628,25 +636,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004010932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 038648c543aaa0541b13ca32e3ab18fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 53a0e573bb457ce4c9790178dfabde64, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6940803808524354855}
-        m_TargetAssemblyTypeName: WOTR.BoardGame.UI.CardDetailUIController, WOTR.BoardGame
-        m_MethodName: OnHideMoreCardDetail
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  customDetailUIControllers:
+  - {fileID: 6940803808524354855}
+  - {fileID: 4149606651156053466}
+  showMoreDetailInputAction:
+    m_Name: Show More Detail Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 031acf70-7425-4bdc-8111-f21c208b1852
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b1c4ba4f-901a-407e-b12d-3943ad77afdc
+      m_Path: <Keyboard>/alt
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Show More Detail Input
+      m_Flags: 0
+    m_Flags: 0
+  inputState: {fileID: 11400000, guid: 8294e469dc48dcd48bef4ac737260cf9, type: 2}
 --- !u!114 &1004010940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,16 +669,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004010932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5e3dc62848163f459f24bf4935e4cf2, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f9b84abb8749da4483ca29dcf3705dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 6cc0fec2da506ac42a6f491959ad672a, type: 2}
+  gameEvent: {fileID: 11400000, guid: 18d131f46cfdfc042b3309fedecc35a4, type: 2}
   response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6940803808524354855}
-        m_TargetAssemblyTypeName: WOTR.BoardGame.UI.CardDetailUIController, WOTR.BoardGame
-        m_MethodName: OnShowMoreCardDetail
+      - m_Target: {fileID: 1004010939}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.UI.DetailUIManager, WOTR.BoardGame
+        m_MethodName: OnPointerEnterAnyGameObject
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -675,6 +688,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1004010941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004010932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9b84abb8749da4483ca29dcf3705dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: ab881b82897d13e4586a10be2790acdb, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1004010939}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.UI.DetailUIManager, WOTR.BoardGame
+        m_MethodName: OnPointerExitAnyGameObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1004010942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004010932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8160773169010d4439b727dd886be90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasLayer: {fileID: 11400000, guid: d4c4a57e1c0640e4586ccd0a5ecf272d, type: 2}
+  canvas: {fileID: 1004010937}
 --- !u!114 &1067696449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,6 +1069,7 @@ GameObject:
   - component: {fileID: 1308409527}
   - component: {fileID: 1308409526}
   - component: {fileID: 1308409525}
+  - component: {fileID: 1308409528}
   m_Layer: 5
   m_Name: Canvas - CurrentHands
   m_TagString: Untagged
@@ -1104,6 +1160,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1308409528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308409523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8160773169010d4439b727dd886be90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasLayer: {fileID: 11400000, guid: 1a682e0bfe2566c4db820b2fa798e92f, type: 2}
+  canvas: {fileID: 1308409527}
 --- !u!1 &1677223846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,6 +2076,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5458588362976125565, guid: dc14638f8473c1c45bac84b6f27cb5de, type: 3}
   m_PrefabInstance: {fileID: 3297522593633379064}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4149606651156053465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1004010938}
+    m_Modifications:
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892082, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149606650598892083, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+      propertyPath: m_Name
+      value: GraphicDetail
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+--- !u!114 &4149606651156053466 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3235640738468885589, guid: 2727960483467be4a8cf8ad553e26406, type: 3}
+  m_PrefabInstance: {fileID: 4149606651156053465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea4b9f3f13307f4e97997469bed9dec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4400602520757209177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2074,6 +2252,7 @@ GameObject:
   - component: {fileID: 1577746486047162135}
   - component: {fileID: 6052401807886999016}
   - component: {fileID: 2335982789828935701}
+  - component: {fileID: 6052401807886999019}
   - component: {fileID: 6052401807886999018}
   - component: {fileID: 6052401807886999017}
   m_Layer: 0
@@ -2160,6 +2339,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6052401807886999019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5744651114527094242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8160773169010d4439b727dd886be90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasLayer: {fileID: 11400000, guid: 42555bcc188a17f43b14b90027af99c5, type: 2}
+  canvas: {fileID: 6052401807886999016}
 --- !u!1001 &6168549760024553284
 PrefabInstance:
   m_ObjectHideFlags: 0

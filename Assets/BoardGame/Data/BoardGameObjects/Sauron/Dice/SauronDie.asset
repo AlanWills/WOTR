@@ -21,8 +21,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ac61fff56e7c0a24e95e203a17a01997, type: 3}
   - {fileID: 21300000, guid: 2fc044827910ea94a8a394044f57cde4, type: 3}
   - {fileID: 21300000, guid: 4f338ccee8a5caa4fa4797327704c664, type: 3}
-  customTooltips: 0
-  tooltips: {fileID: 0}
+  customTooltips: 1
+  tooltips: {fileID: 11400000, guid: 46fa5233a08a17348b2baea1bbd2aec7, type: 2}
   showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
   hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
 --- !u!114 &-4399427056843569159

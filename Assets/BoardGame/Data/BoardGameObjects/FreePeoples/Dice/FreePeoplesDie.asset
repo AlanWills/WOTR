@@ -66,7 +66,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d2d5dc57917d19b44869b4b707f03718, type: 3}
   - {fileID: 21300000, guid: 3d3042978faa1034b9166053efe8a959, type: 3}
   - {fileID: 21300000, guid: 03111ad0527b775499e78c6c3505f6ea, type: 3}
-  customTooltips: 0
-  tooltips: {fileID: 0}
+  customTooltips: 1
+  tooltips: {fileID: 11400000, guid: 27e5c29cdbc30d84e99082a0cf1e2c3e, type: 2}
   showTooltipEvent: {fileID: 11400000, guid: d5ba122ee1d60df49ad9b40335ea6219, type: 2}
   hideTooltipEvent: {fileID: 11400000, guid: f0da0991a4360d74ead34f377dd2df1e, type: 2}
