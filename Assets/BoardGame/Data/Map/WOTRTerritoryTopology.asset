@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b63042df62480418dc00b668ec8e61, type: 3}
+  m_Name: WOTRTerritoryTopology
+  m_EditorClassIdentifier: 
+  items:
+  - territory1: {fileID: 11400000, guid: 1074cba67a7a00741875aeb44f0f6efd, type: 2}
+    territory2: {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+  - territory1: {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    territory2: {fileID: 11400000, guid: 7f411907221f68a4187d14215ba650c6, type: 2}
+  - territory1: {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    territory2: {fileID: 11400000, guid: 9938e9d1e062a0046af2a54bf137e783, type: 2}
+  - territory1: {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    territory2: {fileID: 11400000, guid: 220842b6a7c43914ea39a2d785f35a14, type: 2}
+  expandedTerritoryConnections:
+  - territory: {fileID: 11400000, guid: 1074cba67a7a00741875aeb44f0f6efd, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+  - territory: {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 7f411907221f68a4187d14215ba650c6, type: 2}
+    - {fileID: 11400000, guid: 9938e9d1e062a0046af2a54bf137e783, type: 2}
+    - {fileID: 11400000, guid: 220842b6a7c43914ea39a2d785f35a14, type: 2}
+    - {fileID: 11400000, guid: 1074cba67a7a00741875aeb44f0f6efd, type: 2}
+  - territory: {fileID: 11400000, guid: 7f411907221f68a4187d14215ba650c6, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    - {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+  - territory: {fileID: 11400000, guid: 9938e9d1e062a0046af2a54bf137e783, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    - {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+    - {fileID: 11400000, guid: 220842b6a7c43914ea39a2d785f35a14, type: 2}
+    - {fileID: 11400000, guid: fda18b085c6b6cc42ad9062eb34955a5, type: 2}
+  - territory: {fileID: 11400000, guid: 220842b6a7c43914ea39a2d785f35a14, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 32fcd4cb8c50ee14fac665662308687c, type: 2}
+    - {fileID: 11400000, guid: 2598d001f9bd6bc479166dc331712537, type: 2}
+    - {fileID: 11400000, guid: 9938e9d1e062a0046af2a54bf137e783, type: 2}
+    - {fileID: 11400000, guid: 4041eff89f77a2243b39df52210a46ae, type: 2}
+  - territory: {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 7f411907221f68a4187d14215ba650c6, type: 2}
+    - {fileID: 11400000, guid: 9938e9d1e062a0046af2a54bf137e783, type: 2}
+    - {fileID: 11400000, guid: fda18b085c6b6cc42ad9062eb34955a5, type: 2}
+    - {fileID: 11400000, guid: 5ae881f1ad24fd94aa28ca1e097409f4, type: 2}
+    - {fileID: 11400000, guid: c37317dce974c18448d380d88e549171, type: 2}
+    - {fileID: 11400000, guid: eab6bf18da69c5948a6d40023548d7ba, type: 2}
+  - territory: {fileID: 11400000, guid: fda18b085c6b6cc42ad9062eb34955a5, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 9938e9d1e062a0046af2a54bf137e783, type: 2}
+    - {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+    - {fileID: 11400000, guid: 4041eff89f77a2243b39df52210a46ae, type: 2}
+    - {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+    - {fileID: 11400000, guid: 5ae881f1ad24fd94aa28ca1e097409f4, type: 2}
+  - territory: {fileID: 11400000, guid: 2598d001f9bd6bc479166dc331712537, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 220842b6a7c43914ea39a2d785f35a14, type: 2}
+    - {fileID: 11400000, guid: 4041eff89f77a2243b39df52210a46ae, type: 2}
+  - territory: {fileID: 11400000, guid: 4041eff89f77a2243b39df52210a46ae, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 220842b6a7c43914ea39a2d785f35a14, type: 2}
+    - {fileID: 11400000, guid: fda18b085c6b6cc42ad9062eb34955a5, type: 2}
+    - {fileID: 11400000, guid: 2598d001f9bd6bc479166dc331712537, type: 2}
+    - {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    - {fileID: 11400000, guid: f3a7f2860934c1c4b827c61966b32b0b, type: 2}
+  - territory: {fileID: 11400000, guid: 5ae881f1ad24fd94aa28ca1e097409f4, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+    - {fileID: 11400000, guid: fda18b085c6b6cc42ad9062eb34955a5, type: 2}
+    - {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+    - {fileID: 11400000, guid: c37317dce974c18448d380d88e549171, type: 2}
+  - territory: {fileID: 11400000, guid: c37317dce974c18448d380d88e549171, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+    - {fileID: 11400000, guid: 5ae881f1ad24fd94aa28ca1e097409f4, type: 2}
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+    - {fileID: 11400000, guid: eab6bf18da69c5948a6d40023548d7ba, type: 2}
+    - {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+  - territory: {fileID: 11400000, guid: eab6bf18da69c5948a6d40023548d7ba, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 9ee2504c51e768e49a7ccf3a2f5a369f, type: 2}
+    - {fileID: 11400000, guid: c37317dce974c18448d380d88e549171, type: 2}
+    - {fileID: 11400000, guid: a94a5f28553d48549ba80f92bee03675, type: 2}
+    - {fileID: 11400000, guid: ff793dfefc595674fba37ba6bbdf7183, type: 2}
+  - territory: {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: fda18b085c6b6cc42ad9062eb34955a5, type: 2}
+    - {fileID: 11400000, guid: 5ae881f1ad24fd94aa28ca1e097409f4, type: 2}
+    - {fileID: 11400000, guid: cb4a51b6fb9ea9d4b9bf3d281e834a78, type: 2}
+    - {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    - {fileID: 11400000, guid: c37317dce974c18448d380d88e549171, type: 2}
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+  - territory: {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 4041eff89f77a2243b39df52210a46ae, type: 2}
+    - {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+    - {fileID: 11400000, guid: cb4a51b6fb9ea9d4b9bf3d281e834a78, type: 2}
+    - {fileID: 11400000, guid: b71f3a5a8f2e68f4b94f74edcca9b3e6, type: 2}
+    - {fileID: 11400000, guid: 8dbe87a1cdcc94f4baebba62aaad9f7c, type: 2}
+    - {fileID: 11400000, guid: f3a7f2860934c1c4b827c61966b32b0b, type: 2}
+  - territory: {fileID: 11400000, guid: f3a7f2860934c1c4b827c61966b32b0b, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 4041eff89f77a2243b39df52210a46ae, type: 2}
+    - {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    - {fileID: 11400000, guid: 8dbe87a1cdcc94f4baebba62aaad9f7c, type: 2}
+    - {fileID: 11400000, guid: dfbb0ff56ddea054f84279b77b536d77, type: 2}
+  - territory: {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: c37317dce974c18448d380d88e549171, type: 2}
+    - {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+    - {fileID: 11400000, guid: cb4a51b6fb9ea9d4b9bf3d281e834a78, type: 2}
+    - {fileID: 11400000, guid: b71f3a5a8f2e68f4b94f74edcca9b3e6, type: 2}
+    - {fileID: 11400000, guid: b4f08aac4640bde4a8b75ac2e63512db, type: 2}
+    - {fileID: 11400000, guid: c9b97079251fd8847a1e56a022f28420, type: 2}
+    - {fileID: 11400000, guid: 3e62519823e065442aa43f78cabed516, type: 2}
+  - territory: {fileID: 11400000, guid: a94a5f28553d48549ba80f92bee03675, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: eab6bf18da69c5948a6d40023548d7ba, type: 2}
+  - territory: {fileID: 11400000, guid: ff793dfefc595674fba37ba6bbdf7183, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: eab6bf18da69c5948a6d40023548d7ba, type: 2}
+  - territory: {fileID: 11400000, guid: cb4a51b6fb9ea9d4b9bf3d281e834a78, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 1d386a3cd73335542a11e5982d9a8091, type: 2}
+    - {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+  - territory: {fileID: 11400000, guid: b71f3a5a8f2e68f4b94f74edcca9b3e6, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+  - territory: {fileID: 11400000, guid: 8dbe87a1cdcc94f4baebba62aaad9f7c, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: b40804da0d22bc643908c65245b34f2e, type: 2}
+    - {fileID: 11400000, guid: f3a7f2860934c1c4b827c61966b32b0b, type: 2}
+  - territory: {fileID: 11400000, guid: dfbb0ff56ddea054f84279b77b536d77, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: f3a7f2860934c1c4b827c61966b32b0b, type: 2}
+  - territory: {fileID: 11400000, guid: b4f08aac4640bde4a8b75ac2e63512db, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+  - territory: {fileID: 11400000, guid: c9b97079251fd8847a1e56a022f28420, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}
+  - territory: {fileID: 11400000, guid: 3e62519823e065442aa43f78cabed516, type: 2}
+    connectedTerritories:
+    - {fileID: 11400000, guid: 1b1b1221124b659409d1d7dc0127a331, type: 2}

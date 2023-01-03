@@ -6,6 +6,7 @@
         "Celeste.DataStructures.Editor",
         "Celeste.BoardGame",
         "Celeste.Components",
+        "Celeste.Objects",
         "WOTR.BoardGame",
         "Celeste.Persistence.Editor",
         "Celeste.Tools.Editor",
