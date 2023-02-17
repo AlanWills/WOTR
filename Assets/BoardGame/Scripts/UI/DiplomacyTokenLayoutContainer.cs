@@ -32,6 +32,20 @@ namespace WOTR.BoardGame.UI
             Layout();
         }
 
+        public void OnChildRemoved(GameObject gameObject)
+        {
+            BoardGameObjectUIController uiController = diplomacyTokenControllers.Find(x => x.gameObject == gameObject);
+
+            if (uiController != null &&
+                uiController.BoardGameObjectRuntime.TryFindComponent<IBoardGameObjectDiplomacyToken>(out var diplomacy))
+            {
+                diplomacy.iFace.RemoveDiplomacyStatusChangedCallback(OnDiplomacyStatusChanged);
+                diplomacyTokenControllers.Remove(uiController);
+            }
+
+            Layout();
+        }
+
         private void Layout()
         {
             for (int i = 0, n = diplomacyTokenControllers.Count; i < n; ++i)
@@ -54,14 +68,6 @@ namespace WOTR.BoardGame.UI
 
         public void OnBoardGameShutdown(BoardGameShutdownArgs args)
         {
-            foreach (var controller in diplomacyTokenControllers)
-            {
-                if (controller.BoardGameObjectRuntime.TryFindComponent<IBoardGameObjectDiplomacyToken>(out var diplomacy))
-                {
-                    diplomacy.iFace.RemoveDiplomacyStatusChangedCallback(OnDiplomacyStatusChanged);
-                }
-            }
-
             diplomacyTokenControllers.Clear();
         }
 

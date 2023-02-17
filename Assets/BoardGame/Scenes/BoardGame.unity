@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 535006997}
   - component: {fileID: 535006998}
   - component: {fileID: 535006999}
+  - component: {fileID: 535007000}
   m_Layer: 0
   m_Name: BoardGameRuntimeManager
   m_TagString: Untagged
@@ -259,12 +260,13 @@ MonoBehaviour:
   snapshotRecord: {fileID: 11400000, guid: e57edf19867f57b4da26f09a83231574, type: 2}
   loadOnAwake: 0
   boardGame: {fileID: 11400000, guid: 7fa2c9d08f663954482f61552a8bb72c, type: 2}
-  boardGameSetup: {fileID: 11400000, guid: 85b82df2e9e339a439880ac955a21484, type: 2}
+  boardGameSetup: {fileID: 11400000, guid: 6058d8dd1ba145143bc48eec9e844992, type: 2}
   onBoardGameSetupEvent: {fileID: 11400000, guid: 04cfaef8ab3044f4a82ee5f18f457652, type: 2}
   onBoardGameLoadedEvent: {fileID: 11400000, guid: 34dcc771e0198c948989f53ef927186b, type: 2}
   onBoardGameReadyEvent: {fileID: 11400000, guid: 9aaf562f782409d49b525124cf64d860, type: 2}
   onBoardGameShutdownEvent: {fileID: 11400000, guid: 2b293907a6941fb4c900f727f59b929f, type: 2}
   onBoardGameObjectAddedEvent: {fileID: 11400000, guid: 6b5d850d5a3bc8941a4ca4d477576d02, type: 2}
+  onBoardGameObjectMovedEvent: {fileID: 11400000, guid: 98611a761f67d4548a88ea5864d45577, type: 2}
 --- !u!114 &535006999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +287,35 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.BoardGameRuntimeManager,
           WOTR.BoardGame
         m_MethodName: OnAddBoardGameObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &535007000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535006996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d0b79a4491f70489043a0ae55b1634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 3f9f43d9a8ff3984494090deb919f5f0, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 535006998}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.BoardGameRuntimeManager,
+          WOTR.BoardGame
+        m_MethodName: OnMoveBoardGameObject
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -937,6 +968,7 @@ GameObject:
   - component: {fileID: 1259255887}
   - component: {fileID: 1259255888}
   - component: {fileID: 1259255890}
+  - component: {fileID: 1259255892}
   - component: {fileID: 1259255891}
   m_Layer: 0
   m_Name: BoardGameUIManager
@@ -1048,6 +1080,34 @@ MonoBehaviour:
       - m_Target: {fileID: 1259255887}
         m_TargetAssemblyTypeName: Celeste.BoardGame.UI.BoardGameUIManager, Celeste.BoardGame
         m_MethodName: OnBoardGameRuntimeShutdown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1259255892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259255885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf4beeb05991d84fb63dc1c7ce45e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 98611a761f67d4548a88ea5864d45577, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1259255887}
+        m_TargetAssemblyTypeName: Celeste.BoardGame.UI.BoardGameUIManager, Celeste.BoardGame
+        m_MethodName: OnBoardGameObjectMoved
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

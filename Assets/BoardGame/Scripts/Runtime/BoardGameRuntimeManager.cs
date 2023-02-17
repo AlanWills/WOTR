@@ -1,9 +1,11 @@
 ﻿using Celeste.BoardGame;
+using Celeste.BoardGame.Events;
 using Celeste.BoardGame.Persistence;
 using Celeste.BoardGame.Runtime;
 using Celeste.Components;
 using Celeste.Events;
 using Celeste.Persistence;
+using Celeste.Persistence.Snapshots;
 using System;
 using UnityEngine;
 using WOTR.BoardGame.Events;
@@ -18,7 +20,7 @@ namespace WOTR.BoardGame.Runtime
         protected override string FileName => FILE_NAME;
 
         [SerializeField] private Celeste.BoardGame.BoardGame boardGame;
-        [SerializeField] private BoardGameSetup boardGameSetup;
+        [SerializeField] private DataSnapshot boardGameSetup;
 
         [Header("Events")]
         [SerializeField] private BoardGameSetupEvent onBoardGameSetupEvent;
@@ -26,6 +28,7 @@ namespace WOTR.BoardGame.Runtime
         [SerializeField] private BoardGameReadyEvent onBoardGameReadyEvent;
         [SerializeField] private BoardGameShutdownEvent onBoardGameShutdownEvent;
         [SerializeField] private BoardGameObjectAddedEvent onBoardGameObjectAddedEvent;
+        [SerializeField] private BoardGameObjectMovedEvent onBoardGameObjectMovedEvent;
 
         [NonSerialized] private BoardGameRuntime boardGameRuntime;
 
@@ -70,7 +73,11 @@ namespace WOTR.BoardGame.Runtime
 
         protected override void SetDefaultValues()
         {
-            LoadCommon(boardGameSetup.startingBoardGameRuntimeState);
+            // Unpack the setup snapshot into the filesystem so it'll be there without us having to save
+            boardGameSetup.UnpackItems();
+
+            // Grab the data for our board game runtime and use it to load
+            LoadCommon(boardGameSetup.DeserializeData<BoardGameRuntimeDTO>(FILE_NAME));
 
             onBoardGameSetupEvent.Invoke(new BoardGameSetupArgs()
             {
@@ -91,7 +98,7 @@ namespace WOTR.BoardGame.Runtime
 
             foreach (var boardGameObjectRuntimeDTO in dto.boardGameObjectRuntimes)
             {
-                boardGameRuntime.AddBoardGameObject(boardGameObjectRuntimeDTO);
+                boardGameRuntime.AddBoardGameObjectRuntime(boardGameObjectRuntimeDTO);
             }
 
             boardGameRuntime.ComponentDataChanged.AddListener(OnBoardGameChanged);
@@ -105,7 +112,7 @@ namespace WOTR.BoardGame.Runtime
         {
             BoardGameObject boardGameObject = boardGame.FindBoardGameObject(args.boardGameObjectGuid);
             UnityEngine.Debug.Assert(boardGameObject != null, $"Could not find board game object with guid {args.boardGameObjectGuid}.");
-            BoardGameObjectRuntime boardGameObjectRuntime = boardGameRuntime.AddBoardGameObject(boardGameObject);
+            BoardGameObjectRuntime boardGameObjectRuntime = boardGameRuntime.AddBoardGameObjectRuntime(boardGameObject);
 
             if (boardGameObjectRuntime.TryFindComponent<IBoardGameObjectActor>(out var actor))
             {
@@ -117,6 +124,37 @@ namespace WOTR.BoardGame.Runtime
                 boardGameRuntime = boardGameRuntime, 
                 boardGameObjectRuntime = boardGameObjectRuntime
             });
+        }
+
+        public void OnMoveBoardGameObject(MoveBoardGameObjectArgs args)
+        {
+            BoardGameObjectRuntime runtime = args.boardGameObjectRuntime;
+
+            if (runtime == null)
+            {
+                if (args.boardGameObjectRuntimeInstanceId != 0)
+                {
+                    runtime = boardGameRuntime.FindBoardGameObjectRuntime(args.boardGameObjectRuntimeInstanceId);
+                }
+                else if (!string.IsNullOrEmpty(args.boardGameObjectRuntimeName))
+                {
+                    runtime = boardGameRuntime.FindBoardGameObjectRuntime(args.boardGameObjectRuntimeName);
+                }
+            }
+
+            UnityEngine.Debug.Assert(runtime != null, $"No runtime could be found for moving board game object.");
+            if (runtime != null && runtime.TryFindComponent<IBoardGameObjectActor>(out var actor))
+            {
+                string oldLocationName = actor.iFace.GetCurrentLocationName(actor.instance);
+                actor.iFace.SetCurrentLocationName(actor.instance, args.newLocation);
+                onBoardGameObjectMovedEvent.Invoke(new BoardGameObjectMovedArgs()
+                {
+                    boardGameRuntime = boardGameRuntime,
+                    boardGameObjectRuntime = runtime,
+                    oldLocation = oldLocationName,
+                    newLocation = args.newLocation
+                });
+            }
         }
 
         private void OnBoardGameChanged()

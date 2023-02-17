@@ -62,7 +62,7 @@ namespace WOTR.BoardGame.Runtime
 
         public void OnBoardGameSetup(BoardGameSetupArgs args)
         {
-            LoadCommon(args.boardGameSetup.startingFactionsState);
+            LoadCommon(args.boardGameSetup.DeserializeData<FactionsManagerDTO>(FILE_NAME));
         }
 
         public void OnBoardGameLoaded(BoardGameLoadedArgs args)

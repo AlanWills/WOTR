@@ -2,6 +2,7 @@
 using Celeste.Input;
 using Celeste.UI;
 using System.Collections.Generic;
+using Unity.VisualScripting.YamlDotNet.Serialization;
 using UnityEngine;
 
 namespace WOTR.BoardGame.UI
@@ -53,11 +54,17 @@ namespace WOTR.BoardGame.UI
                 if (anchor.childCount == 0)
                 {
                     gameObject.transform.SetParent(anchor, false);
+                    gameObject.transform.position = anchor.position;
                     break;
                 }
             }
 
             // If we get here, we've run out of anchors - maybe modify the UI entirely (aka conglomerate the army/ies into tokens or just have overflow UI for the models that wouldn't fit)
+        }
+        
+        public void OnChildRemoved(GameObject gameObject)
+        {
+            // No-op
         }
 
         public void OnMouseEnterTerritory(InputState inputState)

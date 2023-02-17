@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd85614de4fc60489e89e5b2c8c41f3, type: 3}
+  m_Name: BoardGameDebugMenu
+  m_EditorClassIdentifier: 
+  displayName: Board Game
+  menuPriority: 0
+  boardGame: {fileID: 11400000, guid: 7fa2c9d08f663954482f61552a8bb72c, type: 2}
+  entriesPerPage: 20
+  addBoardGameObjectEvent: {fileID: 11400000, guid: 3ae4e59a5eef6804f85e249b96c3b9e3, type: 2}
+  moveBoardGameObjectEvent: {fileID: 11400000, guid: 3f9f43d9a8ff3984494090deb919f5f0, type: 2}

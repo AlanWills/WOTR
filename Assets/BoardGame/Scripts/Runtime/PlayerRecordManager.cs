@@ -59,7 +59,7 @@ namespace WOTR.BoardGame.Runtime
 
         public void OnBoardGameSetup(BoardGameSetupArgs args)
         {
-            LoadCommon(args.boardGameSetup.startingPlayersState);
+            LoadCommon(args.boardGameSetup.DeserializeData<PlayerRecordManagerDTO>(FILE_NAME));
         }
 
         public void OnBoardGameLoaded(BoardGameLoadedArgs args)

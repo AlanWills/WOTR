@@ -21,9 +21,9 @@ namespace WOTR.BoardGame.Runtime
 
         private void LoadCommon(BoardGameRuntime boardGameRuntime)
         {
-            for (int i = 0, n = boardGameRuntime.NumBoardGameObjects; i < n; i++)
+            for (int i = 0, n = boardGameRuntime.NumBoardGameObjectRuntimes; i < n; i++)
             {
-                BoardGameObjectRuntime boardGameObjectRuntime = boardGameRuntime.GetBoardGameObject(i);
+                BoardGameObjectRuntime boardGameObjectRuntime = boardGameRuntime.GetBoardGameObjectRuntime(i);
 
                 // Find all dice which belong to the selected owner
                 if (boardGameObjectRuntime.TryFindComponent<IBoardGameObjectDie>(out var die))

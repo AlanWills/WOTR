@@ -3,13 +3,14 @@ using UnityEngine;
 using UnityEngine.Events;
 using Celeste.Events;
 using Celeste.BoardGame.Runtime;
+using Celeste.Persistence.Snapshots;
 
 namespace WOTR.BoardGame.Events
 {
     [Serializable]
     public struct BoardGameSetupArgs
     {
-        public BoardGameSetup boardGameSetup;
+        public DataSnapshot boardGameSetup;
         public BoardGameRuntime boardGameRuntime;
     }
 
