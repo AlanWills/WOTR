@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3495906585416551651, guid: a0bdf0c69c1205b47a108f9e99bdc5f7, type: 3}
+      propertyPath: gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: b5015810c339191409d494f27fb6e837, type: 2}
     - target: {fileID: 8915711935902190016, guid: a0bdf0c69c1205b47a108f9e99bdc5f7, type: 3}
       propertyPath: id
       value: 
@@ -69,3 +73,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0bdf0c69c1205b47a108f9e99bdc5f7, type: 3}
+--- !u!1 &5458588362976125554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8915711935902190030, guid: a0bdf0c69c1205b47a108f9e99bdc5f7, type: 3}
+  m_PrefabInstance: {fileID: 3493163788795702204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3985569026659220846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458588362976125554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d14275f858e124e8798c42a52e2d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 1224794e2ea957a4e862e629171df9dd, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5458588362976125564}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Managers.DiceManager, WOTR.BoardGame
+        m_MethodName: OnMoveMatchingDice
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5365122317031539867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458588362976125554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 6616d5609bef4f14898d5ecb4b126021, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1224794e2ea957a4e862e629171df9dd, type: 2}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Events.MoveMatchingDiceEvent, WOTR.BoardGame
+        m_MethodName: InvokeWithDefaultArgs
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5458588362976125564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8915711935902190016, guid: a0bdf0c69c1205b47a108f9e99bdc5f7, type: 3}
+  m_PrefabInstance: {fileID: 3493163788795702204}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458588362976125554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b59a490badbddb438a1726e9a928712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

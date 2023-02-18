@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8915711935902190017}
   - component: {fileID: 8915711935902190016}
   - component: {fileID: 8915711935902190019}
+  - component: {fileID: 3495906585416551651}
   - component: {fileID: 8915711935902190018}
   - component: {fileID: 8915711935902190021}
   - component: {fileID: 8915711935902190020}
@@ -69,6 +70,34 @@ MonoBehaviour:
       - m_Target: {fileID: 8915711935902190016}
         m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
         m_MethodName: OnRollAllDice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3495906585416551651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915711935902190030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 0}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8915711935902190016}
+        m_TargetAssemblyTypeName: WOTR.BoardGame.Runtime.DiceManager, WOTR.BoardGame
+        m_MethodName: OnResetAllDicePositions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

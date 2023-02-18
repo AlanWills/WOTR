@@ -1,0 +1,20 @@
+{
+    "name": "WOTR.BoardGame.Nodes",
+    "rootNamespace": "WOTR.BoardGame.Nodes",
+    "references": [
+        "WOTR.BoardGame",
+        "Celeste.Events",
+        "Celeste.FSM",
+        "Celeste.FSM.Nodes",
+        "XNode"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

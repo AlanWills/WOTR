@@ -1,6 +1,6 @@
 ﻿using CelesteEditor.Persistence;
 using UnityEditor;
-using WOTR.BoardGame.Runtime;
+using WOTR.BoardGame.Managers;
 
 namespace WOTREditor.BoardGame.Runtime
 {

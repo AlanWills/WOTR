@@ -1,5 +1,149 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8558453750966341805
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbac607ae008c7f42814cf23fbe54582, type: 3}
+  m_Name: End FellowshipPhase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 632, y: 232}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -8558453750966341805}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -8558453750966341805}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 551197a6-233b-4f2b-85a6-5122e6d6f231
+  listenFor: {fileID: 11400000, guid: b837537c3b1f62c459bdf0e993b05e36, type: 2}
+--- !u!114 &-8486715483392334644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbac607ae008c7f42814cf23fbe54582, type: 3}
+  m_Name: End Hunt Allocation
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: 232}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -8486715483392334644}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -4150321808345662928}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -8486715483392334644}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: f6d41b41-cc3c-4887-a6e0-ec9f1bae219a
+  listenFor: {fileID: 11400000, guid: c52ff7890828cd1408f037cb7b70de4e, type: 2}
 --- !u!114 &-7758032204965962069
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13,7 +157,7 @@ MonoBehaviour:
   m_Name: Roll Sauron Dice
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -104, y: 24}
+  position: {x: 1208, y: 232}
   ports:
     keys:
     - ' '
@@ -27,6 +171,36 @@ MonoBehaviour:
       - fieldName: 
         node: {fileID: -3337523551266988669}
         reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3337523551266988669}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -35,13 +209,238 @@ MonoBehaviour:
       _node: {fileID: -7758032204965962069}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: 4824456383277691439}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
   guid: 73f311b3-e48b-42e0-a509-a65af7f868ad
   toRaise: {fileID: 11400000, guid: c401bc2267317a249972f9b3f6cccd68, type: 2}
+--- !u!114 &-6286424133935832491
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6541ccd5b00617f41a77185d4ed4817b, type: 3}
+  m_Name: Draw 1 Sauron Army Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 888}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -6286424133935832491}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -6286424133935832491}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 0a640d38-4572-4ef4-97f1-7ce749ef8c08
+  argument:
+    deck: {fileID: 11400000, guid: 1c12f7f9b71487d4f83aa6afa6b86a65, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 263b9a7dc1a9d994c9a7f33fd5ee4cca, type: 2}
+--- !u!114 &-4150321808345662928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea208f90a509b748afbdf6b52d79c33, type: 3}
+  m_Name: Begin Hunt Allocation
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: 56}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -4150321808345662928}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -4150321808345662928}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: ad4df2d2-9b39-4b44-a291-f948a56d878a
+  toRaise: {fileID: 11400000, guid: b6dc6891288e4224b9f6f503ff6c096c, type: 2}
+--- !u!114 &-3771576266572958444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6541ccd5b00617f41a77185d4ed4817b, type: 3}
+  m_Name: Draw 1 Sauron Character Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 1128}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -3771576266572958444}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -3771576266572958444}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 4454733942859875184}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 80b07f59-b836-4b59-9daf-093c279fc278
+  argument:
+    deck: {fileID: 11400000, guid: 5b2cc41397e53354f92e2c19f3a153c7, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 263b9a7dc1a9d994c9a7f33fd5ee4cca, type: 2}
 --- !u!114 &-3337523551266988669
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,7 +454,7 @@ MonoBehaviour:
   m_Name: Roll Free Peoples Dice
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -104, y: -120}
+  position: {x: 1208, y: 56}
   ports:
     keys:
     - ' '
@@ -65,7 +464,37 @@ MonoBehaviour:
       _node: {fileID: -3337523551266988669}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8486715483392334644}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -84,6 +513,153 @@ MonoBehaviour:
       _dynamic: 1
   guid: 2009fdcd-a28a-4f1e-80a7-74ae33785cfc
   toRaise: {fileID: 11400000, guid: 14fe2e2f2db93f243be6c40157d46590, type: 2}
+--- !u!114 &-2990096315783062607
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea208f90a509b748afbdf6b52d79c33, type: 3}
+  m_Name: Reset Sauron Dice Positions
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: 232}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -2990096315783062607}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 4677980243461077562}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -2990096315783062607}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: a9f5f475-f3e4-449a-814e-afcb985abf2e
+  toRaise: {fileID: 11400000, guid: b5015810c339191409d494f27fb6e837, type: 2}
+--- !u!114 &-886896921913331843
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6541ccd5b00617f41a77185d4ed4817b, type: 3}
+  m_Name: Draw 1 Free Peoples Army Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 408}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -886896921913331843}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -886896921913331843}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 8471127070866856511}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 35a5b9f2-f992-4e3e-8a09-2ef8af26f1e9
+  argument:
+    deck: {fileID: 11400000, guid: ad801d32aad4fcb42aa5ecf6d468622f, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 6c0d663ac68d03b4c91fe4bcf373b449, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +675,248 @@ MonoBehaviour:
   nodes:
   - {fileID: -3337523551266988669}
   - {fileID: -7758032204965962069}
-  startNode: {fileID: -3337523551266988669}
-  finishNode: {fileID: -7758032204965962069}
+  - {fileID: 4677980243461077562}
+  - {fileID: -2990096315783062607}
+  - {fileID: -886896921913331843}
+  - {fileID: 8471127070866856511}
+  - {fileID: -6286424133935832491}
+  - {fileID: -3771576266572958444}
+  - {fileID: 4454733942859875184}
+  - {fileID: -4150321808345662928}
+  - {fileID: -8558453750966341805}
+  - {fileID: -8486715483392334644}
+  - {fileID: 4824456383277691439}
+  startNode: {fileID: 4677980243461077562}
+  finishNode: {fileID: 4824456383277691439}
   parameters: []
+--- !u!114 &4454733942859875184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea208f90a509b748afbdf6b52d79c33, type: 3}
+  m_Name: Begin Fellowship Phase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 632, y: 56}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4454733942859875184}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -3771576266572958444}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4454733942859875184}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -8558453750966341805}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: c8dabda3-9ec2-40b5-b320-33dab0fa95e1
+  toRaise: {fileID: 11400000, guid: fae730fe23dad714395ee3c9885dfaf9, type: 2}
+--- !u!114 &4677980243461077562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea208f90a509b748afbdf6b52d79c33, type: 3}
+  m_Name: Reset Free Peoples Dice Positions
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: 56}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4677980243461077562}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4677980243461077562}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -2990096315783062607}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: b2dad1ac-2b3f-4270-b966-c719e9f69d95
+  toRaise: {fileID: 11400000, guid: 6b2b739f19f45d8488afba43824ec791, type: 2}
+--- !u!114 &4824456383277691439
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea208f90a509b748afbdf6b52d79c33, type: 3}
+  m_Name: Event Raiser
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: 408}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4824456383277691439}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -7758032204965962069}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4824456383277691439}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 95d2a2ec-3766-4432-9adc-44b79eb27d5e
+  toRaise: {fileID: 11400000, guid: 6616d5609bef4f14898d5ecb4b126021, type: 2}
+--- !u!114 &8471127070866856511
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6541ccd5b00617f41a77185d4ed4817b, type: 3}
+  m_Name: Draw 1 Free Peoples Character Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 648}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 8471127070866856511}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -886896921913331843}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 8471127070866856511}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -6286424133935832491}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: f8f28c22-eb6d-4728-bfd2-38151d246df4
+  argument:
+    deck: {fileID: 11400000, guid: 0234e759dba60b04ca33f6d3b7b4990a, type: 2}
+    quantity: 1
+  toRaise: {fileID: 11400000, guid: 6c0d663ac68d03b4c91fe4bcf373b449, type: 2}

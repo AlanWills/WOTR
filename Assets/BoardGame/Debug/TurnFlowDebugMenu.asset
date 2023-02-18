@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e65b64c2e91c6a4eb20977eae190481, type: 3}
+  m_Name: TurnFlowDebugMenu
+  m_EditorClassIdentifier: 
+  displayName: Turn Flow
+  menuPriority: 0
+  freePeoplesCharacterEvents: {fileID: 11400000, guid: 0234e759dba60b04ca33f6d3b7b4990a, type: 2}
+  freePeoplesArmyEvents: {fileID: 11400000, guid: ad801d32aad4fcb42aa5ecf6d468622f, type: 2}
+  sauronCharacterEvents: {fileID: 11400000, guid: 5b2cc41397e53354f92e2c19f3a153c7, type: 2}
+  sauronArmyEvents: {fileID: 11400000, guid: 1c12f7f9b71487d4f83aa6afa6b86a65, type: 2}
+  beginNewTurnEvent: {fileID: 11400000, guid: 4bbf08c4de21f4b4884f04d452f82c39, type: 2}
+  resetFreePeoplesDicePositionsEvent: {fileID: 11400000, guid: 6b2b739f19f45d8488afba43824ec791, type: 2}
+  resetSauronDicePositionsEvent: {fileID: 11400000, guid: b5015810c339191409d494f27fb6e837, type: 2}
+  drawFreePeoplesCardEvent: {fileID: 11400000, guid: 6c0d663ac68d03b4c91fe4bcf373b449, type: 2}
+  drawSauronCardEvent: {fileID: 11400000, guid: 263b9a7dc1a9d994c9a7f33fd5ee4cca, type: 2}
+  beginFellowshipPhaseEvent: {fileID: 11400000, guid: fae730fe23dad714395ee3c9885dfaf9, type: 2}
+  endFellowshipPhaseEvent: {fileID: 11400000, guid: b837537c3b1f62c459bdf0e993b05e36, type: 2}
+  beginHuntAllocationEvent: {fileID: 11400000, guid: b6dc6891288e4224b9f6f503ff6c096c, type: 2}
+  endHuntAllocationEvent: {fileID: 11400000, guid: c52ff7890828cd1408f037cb7b70de4e, type: 2}
+  moveSauronEyeDiceToHuntBoxEvent: {fileID: 11400000, guid: 6616d5609bef4f14898d5ecb4b126021, type: 2}
+  rollAllFreePeoplesDiceEvent: {fileID: 11400000, guid: 14fe2e2f2db93f243be6c40157d46590, type: 2}
+  rollAllSauronDiceEvent: {fileID: 11400000, guid: c401bc2267317a249972f9b3f6cccd68, type: 2}
+  moveAllEyeSauronDiceEvent: {fileID: 11400000, guid: 6616d5609bef4f14898d5ecb4b126021, type: 2}

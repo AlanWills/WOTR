@@ -18,7 +18,7 @@ namespace WOTR.BoardGame.Events
 	public class BoardGameSetupUnityEvent : UnityEvent<BoardGameSetupArgs> { }
 	
 	[Serializable]
-	[CreateAssetMenu(fileName = nameof(BoardGameSetupEvent), menuName = "WOTR/Events/Board Game/Board Game Setup")]
+	[CreateAssetMenu(fileName = nameof(BoardGameSetupEvent), menuName = "WOTR/Events/Board Game/Board Game Setup Event")]
 	public class BoardGameSetupEvent : ParameterisedEvent<BoardGameSetupArgs>
 	{
 	}
