@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BoardGameCanvasLayers
   m_EditorClassIdentifier: 
   items:
+  - {fileID: 11400000, guid: 1e6de19665e4f6346a0480710dfc9b04, type: 2}
   - {fileID: 11400000, guid: 1a682e0bfe2566c4db820b2fa798e92f, type: 2}
   - {fileID: 11400000, guid: d4c4a57e1c0640e4586ccd0a5ecf272d, type: 2}
   - {fileID: 11400000, guid: 42555bcc188a17f43b14b90027af99c5, type: 2}

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715b83fd318bf734ea6ea29bcaa2b5f6, type: 3}
   m_Name: CurrentHandsCanvasLayer
   m_EditorClassIdentifier: 
-  sortOrder: 0
+  sortOrder: 1

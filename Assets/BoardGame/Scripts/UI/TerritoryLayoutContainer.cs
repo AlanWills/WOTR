@@ -2,7 +2,6 @@
 using Celeste.Input;
 using Celeste.UI;
 using System.Collections.Generic;
-using Unity.VisualScripting.YamlDotNet.Serialization;
 using UnityEngine;
 
 namespace WOTR.BoardGame.UI
