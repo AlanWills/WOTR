@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de675582da99b6047bd5753a7f972ba5, type: 3}
-  m_Name: FreePeoplesDiceDebugMenu
+  m_Script: {fileID: 11500000, guid: 89dfa0593111a4a4d8791eccc3ee96c6, type: 3}
+  m_Name: FreePeoplesHuntBoxDebugMenu
   m_EditorClassIdentifier: 
-  displayName: Free Peoples Dice
-  menuPriority: 4
-  dice: {fileID: 11400000, guid: 5037a8609d0c3884896365fcc30de396, type: 2}
+  displayName: Free Peoples Hunt Box
+  menuPriority: 6
+  huntBox: {fileID: 11400000, guid: eca4efa6806871b4aa1a5d9563bed980, type: 2}

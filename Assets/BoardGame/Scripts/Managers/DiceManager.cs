@@ -14,8 +14,8 @@ namespace WOTR.BoardGame.Managers
     {
         #region Properties and Fields
 
-        [SerializeField] private ID id;
-        [SerializeField] private Dice dice;
+        [SerializeField] protected ID id;
+        [SerializeField] protected Dice dice;
 
         #endregion
 
@@ -63,11 +63,6 @@ namespace WOTR.BoardGame.Managers
         public void OnResetAllDicePositions()
         {
             dice.ResetAllPositions();
-        }
-
-        public void OnMoveMatchingDice(MoveMatchingDiceArgs args)
-        {
-            dice.MoveAllMatchingDiceTo(args.value, args.newLocation);
         }
 
         #endregion

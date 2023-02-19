@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FreePeoplesCharacterEventsDeckDebugMenu
   m_EditorClassIdentifier: 
   displayName: Free Peoples Character Events Deck
-  menuPriority: 1
+  menuPriority: 2
   deck: {fileID: 11400000, guid: 0234e759dba60b04ca33f6d3b7b4990a, type: 2}

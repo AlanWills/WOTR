@@ -15,9 +15,10 @@ MonoBehaviour:
   displayName: Free Peoples
   menuPriority: 100
   debugMenus:
+  - {fileID: 11400000, guid: 932bd06c5f171f84bad3deb4e23e1020, type: 2}
   - {fileID: 11400000, guid: cee3f163055110c49a8f63a902c7c493, type: 2}
   - {fileID: 11400000, guid: 45b9e5a45ec17a64aa96ef7ef8bfbbde, type: 2}
-  - {fileID: 11400000, guid: 932bd06c5f171f84bad3deb4e23e1020, type: 2}
   - {fileID: 11400000, guid: e9ff124fa385d2e478f8f93cd7cfb14a, type: 2}
   - {fileID: 11400000, guid: a5e9f160815d82248afdcae9f1d46413, type: 2}
   - {fileID: 11400000, guid: 6fe0b84190cd4ae4bb6dce212dfe8244, type: 2}
+  - {fileID: 11400000, guid: 16dee2e244d2f3c418824f0149e189b1, type: 2}

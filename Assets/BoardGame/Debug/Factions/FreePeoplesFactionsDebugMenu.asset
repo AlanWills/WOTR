@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FreePeoplesFactionsDebugMenu
   m_EditorClassIdentifier: 
   displayName: Free Peoples Factions
-  menuPriority: 4
+  menuPriority: 5
   factions:
   - {fileID: 11400000, guid: cac7066d8179c2b4ca7d71ae8904fc35, type: 2}
   - {fileID: 11400000, guid: 9811c37ec3b58b844a62123853ac516b, type: 2}

@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de675582da99b6047bd5753a7f972ba5, type: 3}
-  m_Name: FreePeoplesDiceDebugMenu
+  m_Script: {fileID: 11500000, guid: d81649ea074f1e34ab9148dcbfaec9a2, type: 3}
+  m_Name: NumFreePeoplesDiceInHuntBox
   m_EditorClassIdentifier: 
-  displayName: Free Peoples Dice
-  menuPriority: 4
-  dice: {fileID: 11400000, guid: 5037a8609d0c3884896365fcc30de396, type: 2}
+  helpText: 
+  defaultValue: 0
+  onValueChanged: {fileID: 0}
+  invokeValueChangedSilently: 0
+  valueConstraints: []

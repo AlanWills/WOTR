@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FreePeoplesFellowshipDeckDebugMenu
   m_EditorClassIdentifier: 
   displayName: Free Peoples Fellowship Deck
-  menuPriority: 2
+  menuPriority: 0
   deck: {fileID: 11400000, guid: ba8ff194c6a914344a8a8719d755c6f5, type: 2}
